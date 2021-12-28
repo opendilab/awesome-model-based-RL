@@ -1,9 +1,9 @@
-# Mdoel-Based Reinforcement Learning 
+# Awesome Model-Based Reinforcement Learning 
 
 This is a collection of research papers for **model-based reinforcement learning (mbrl)**.
 And the repository will be continuously updated to track the frontier of model-based rl. 
 
-Weclome to follow and star!
+Welcome to follow and star!
 
 
 
