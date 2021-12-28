@@ -16,10 +16,7 @@ We’ll start this section with a disclaimer: it’s really quite hard to draw a
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="./assets/mbrl-taxonomy.png">
     <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">A non-exhaustive, but useful taxonomy of algorithms in modern Model-Based RL.</div>
+    <center>A non-exhaustive, but useful taxonomy of algorithms in modern Model-Based RL.</center>
 </center>
 
 We simply divide `Model-Based RL`  into two categories: `Learn the Model` and `Given the Model`. 
