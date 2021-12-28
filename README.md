@@ -7,6 +7,17 @@ Welcome to follow and star!
 
 
 
+## Table of Contents
+
+- [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
+- [Papers](#papers)
+  - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
+  - [NeurIPS 2021](#neurips-2021)
+  - [ICLR 2021](#iclr-2021)
+  - [ICML 2021](#icml-2021)
+
+
+
 ## A Taxonomy of Model-Based RL Algorithms
 
 We’ll start this section with a disclaimer: it’s really quite hard to draw an accurate, all-encompassing taxonomy of algorithms in the Model-Based RL space, because the modularity of algorithms is not well-represented by a tree structure. So we will publish a series of related blogs to explain more Model-Based RL algorithms.
