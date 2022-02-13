@@ -5,14 +5,17 @@ And the repository will be continuously updated to track the frontier of model-b
 
 Welcome to follow and star!
 
-<table><tr><b> <font color="red">New: We update the ICLR 2022 paper list of mdoel-based rl !</font> <b></tr></table>
+<pre name="code" class="html">
+<b><font color="red">New: We update the ICLR 2022 paper list of mdoel-based rl!</font><b>
+</pre>
+
 
 ## Table of Contents
 
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICLR 2022](#iclr-2022) <table><tr> (**<font color="red">New!!!</font>**) </tr></table>
+  - [ICLR 2022](#iclr-2022)  (**<font color="red">New!!!</font>**) 
   - [NeurIPS 2021](#neurips-2021)
   - [ICLR 2021](#iclr-2021)
   - [ICML 2021](#icml-2021)
