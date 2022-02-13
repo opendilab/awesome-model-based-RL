@@ -5,7 +5,9 @@ And the repository will be continuously updated to track the frontier of model-b
 
 Welcome to follow and star!
 
-**<font color="red">New: We update the ICLR 2022 paper list of mdoel-based rl !</font>**
+<pre name="code" class="html">
+<font color="red">New: We update the ICLR 2022 paper list of mdoel-based rl!</font>
+</pre>
 
 
 ## Table of Contents
