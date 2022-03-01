@@ -400,6 +400,11 @@ format:
   - Key: value equivalence
   - ExpEnv: [atari](https://github.com/openai/gym)
 
+- [Vector Quantized Models for Planning](https://arxiv.org/pdf/2106.04615.pdf)
+  - Sherjil Ozair, Yazhe Li, Ali Razavi, Ioannis Antonoglou, Aäron van den Oord, Oriol Vinyals
+  - Key: VQVAE + MCTS
+  - ExpEnv: [chess datasets](https://www.ﬁcsgames.org/download.html), [DeepMind Lab](https://github.com/deepmind/lab)
+
 - [PC-MLP: Model-based Reinforcement Learning with Policy Cover Guided Exploration](https://arxiv.org/abs/2107.07410)
   - Yuda Song, Wen Sun
   - Key: sample complexity + kernelized nonlinear regulators + linear MDPs
