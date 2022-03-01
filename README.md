@@ -267,11 +267,23 @@ format:
   - OpenReview: 7, 7, 7, 5
   - ExpEnv: [atrai 100k](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control)
 
+- [Online and Offline Reinforcement Learning by Planning with a Learned Model](https://openreview.net/forum?id=HKtsGW-lNbw)
+  - Julian Schrittwieser, Thomas K Hubert, Amol Mandhane, Mohammadamin Barekatain, Ioannis Antonoglou, David Silver
+  - Key: muzero + reanalyse + offline
+  - OpenReview: 8, 8, 7, 6
+  - ExpEnv: [atrai dataset, deepmind control suite dataset](https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged)
+
 - [Self-Consistent Models and Values](https://arxiv.org/abs/2110.12840)
   - Gregory Farquhar, Kate Baumli, Zita Marinho, Angelos Filos, Matteo Hessel, Hado van Hasselt, David Silver
   - Key: new model learning way
   - OpenReview: 7, 7, 7, 6
   - ExpEnv: tabular MDP, Sokoban, [atari](https://github.com/openai/gym)
+
+- [Proper Value Equivalence](https://arxiv.org/abs/2106.10316)
+  - Christopher Grimm, Andre Barreto, Gregory Farquhar, David Silver, Satinder Singh
+  - Key: value equivalence + value-based planning + muzero
+  - OpenReview: 8, 7, 7, 6
+  - ExpEnv: [four rooms](https://github.com/maximecb/gym-minigrid), [atari](https://github.com/openai/gym)
 
 - [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/abs/2005.13239)
   - Tianhe Yu, Garrett Thomas, Lantao Yu, Stefano Ermon, James Zou, Sergey Levine, Chelsea Finn, Tengyu Ma
@@ -399,6 +411,11 @@ format:
   - Matteo Hessel, Ivo Danihelka, Fabio Viola, Arthur Guez, Simon Schmitt, Laurent Sifre, Theophane Weber, David Silver, Hado van Hasselt
   - Key: value equivalence
   - ExpEnv: [atari](https://github.com/openai/gym)
+
+- [Vector Quantized Models for Planning](https://arxiv.org/pdf/2106.04615.pdf)
+  - Sherjil Ozair, Yazhe Li, Ali Razavi, Ioannis Antonoglou, Aäron van den Oord, Oriol Vinyals
+  - Key: VQVAE + MCTS
+  - ExpEnv: [chess datasets](https://www.ﬁcsgames.org/download.html), [DeepMind Lab](https://github.com/deepmind/lab)
 
 - [PC-MLP: Model-based Reinforcement Learning with Policy Cover Guided Exploration](https://arxiv.org/abs/2107.07410)
   - Yuda Song, Wen Sun
