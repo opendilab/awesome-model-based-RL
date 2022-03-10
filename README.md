@@ -267,6 +267,12 @@ format:
   - OpenReview: 7, 7, 7, 5
   - ExpEnv: [atrai 100k](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control)
 
+- [Online and Offline Reinforcement Learning by Planning with a Learned Model](https://openreview.net/forum?id=HKtsGW-lNbw)
+  - Julian Schrittwieser, Thomas K Hubert, Amol Mandhane, Mohammadamin Barekatain, Ioannis Antonoglou, David Silver
+  - Key: muzero + reanalyse + offline
+  - OpenReview: 8, 8, 7, 6
+  - ExpEnv: [atrai dataset, deepmind control suite dataset](https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged)
+
 - [Self-Consistent Models and Values](https://arxiv.org/abs/2110.12840)
   - Gregory Farquhar, Kate Baumli, Zita Marinho, Angelos Filos, Matteo Hessel, Hado van Hasselt, David Silver
   - Key: new model learning way
