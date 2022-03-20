@@ -279,6 +279,12 @@ format:
   - OpenReview: 7, 7, 7, 6
   - ExpEnv: tabular MDP, Sokoban, [atari](https://github.com/openai/gym)
 
+- [Proper Value Equivalence](https://arxiv.org/abs/2106.10316)
+  - Christopher Grimm, Andre Barreto, Gregory Farquhar, David Silver, Satinder Singh
+  - Key: value equivalence + value-based planning + muzero
+  - OpenReview: 8, 7, 7, 6
+  - ExpEnv: [four rooms](https://github.com/maximecb/gym-minigrid), [atari](https://github.com/openai/gym)
+
 - [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/abs/2005.13239)
   - Tianhe Yu, Garrett Thomas, Lantao Yu, Stefano Ermon, James Zou, Sergey Levine, Chelsea Finn, Tengyu Ma
   - Key: model-based + offline
