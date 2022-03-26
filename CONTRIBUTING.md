@@ -1,4 +1,4 @@
-# Contributing to Awesome Model-Based Reinforcement Learning 
+# Contributing to Awesome Model-Based RL 
 
 Anyone interested in model-based reinforcement learning is welcomed to contribute to this repo:
 
@@ -6,6 +6,8 @@ Anyone interested in model-based reinforcement learning is welcomed to contribut
 
 - You are welcomed to update anything helpful.
 
+
+## Pull Requests
 
 In general, we follow the "fork-and-pull" Git workflow.
 
