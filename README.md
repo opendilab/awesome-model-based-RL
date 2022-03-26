@@ -19,7 +19,7 @@ Welcome to follow and star!
   - [NeurIPS 2021](#neurips-2021)
   - [ICLR 2021](#iclr-2021)
   - [ICML 2021](#icml-2021)
-
+- [Contributing](#contributing)
 
 
 ## A Taxonomy of Model-Based RL Algorithms
@@ -436,6 +436,11 @@ format:
   - Qinghua Liu, Tiancheng Yu, Yu Bai, Chi Jin
   - Key: learning theory + multi-agent + model-based self play + two-player zero-sum Markov games
   - ExpEnv: None
+
+
+
+## Contributing
+Our purpose is to make this repo even better. If you are interested in contributing, please refer to [HERE](CONTRIBUTING.md) for instructions in contribution.
 
 
 
