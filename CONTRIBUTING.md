@@ -42,7 +42,7 @@ In general, we follow the "fork-and-pull" Git workflow.
 
 5. Submit a Pull request so that we can review your changes.
 
-- If you go to your repository on GitHub, you'll see a `Compare & pull` request button. Click on that button. Then submit the pull request.
+- If you go to your repository on GitHub, you'll see a `Contribute` button. Click on that button. Then click `Open pull request` and `Create pull request` buttons in turn.
 
 - Soon We will be merging all your changes into the main branch of this repo. You will get a notification email once the changes have been merged.
 
