@@ -237,6 +237,12 @@ format:
   - OpenReview: 8, 6, 6
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [pybullet](https://github.com/benelot/pybullet-gym)
 
+- [Safe Reinforcement Learning by Imagining the Near Future](https://arxiv.org/abs/2202.07789)
+  - Garrett Thomas, Yuping Luo, Tengyu Ma
+  - Key: safe rl + reward penalty + theory about model-based rollouts
+  - OpenReview: 8, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
 - [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/forum?id=jeATherHHGj)
   - Yao Mu, Yuzheng Zhuang, Bin Wang, Guangxiang Zhu, Wulong Liu, Jianyu Chen, Ping Luo, Shengbo Eben Li, Chongjie Zhang, Jianye HAO
   - Key: extension of dreamer + prediction-reliability weight
