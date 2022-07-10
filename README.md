@@ -6,10 +6,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">
-[2022.07.06] New: We update the ICML 2022 paper list of model-based rl!
-[2022.02.13] We update the ICLR 2022 paper list of model-based rl.
-</font>
+<font color="red">[2022.07.06] New: We update the ICML 2022 paper list of model-based rl!
+
+[2022.02.13] We update the ICLR 2022 paper list of model-based rl.</font>
 </pre>
 
 
