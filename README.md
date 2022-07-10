@@ -6,7 +6,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2022.02.13] New: We update the ICLR 2022 paper list of model-based rl!</font>
+<font color="red">[2022.07.06] New: We update the ICML 2022 paper list of model-based rl!
+
+[2022.02.13] We update the ICLR 2022 paper list of model-based rl.</font>
 </pre>
 
 
@@ -15,7 +17,8 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICLR 2022](#iclr-2022)  (**<font color="red">New!!!</font>**) 
+  - [ICML 2022](#icml-2022) (**<font color="red">New!!!</font>**) 
+  - [ICLR 2022](#iclr-2022) 
   - [NeurIPS 2021](#neurips-2021)
   - [ICLR 2021](#iclr-2021)
   - [ICML 2021](#icml-2021)
@@ -134,6 +137,49 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS + value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+
+### ICML 2022
+
+- [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/abs/2110.14565)
+  - Fei Deng, Ingook Jang, Sungjin Ahn
+  - Key: dreamer + prototypes
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf)
+  - Tongzhou Wang, Simon Du, Antonio Torralba, Phillip Isola, Amy Zhang, Yuandong Tian
+  - Key: representation learning + denoised model
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [RoboDesk](https://github.com/SsnL/robodesk)
+
+- [Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search](https://arxiv.org/pdf/2102.08291.pdf)
+  - Qi Wang, Herke van Hoof
+  - Key: graph structured surrogate model + meta training
+  - ExpEnv: [atari, mujoco](https://github.com/openai/gym)
+
+- [Towards Adaptive Model-Based Reinforcement Learning](https://arxiv.org/pdf/2204.11464.pdf)
+  - Yi Wan, Ali Rahimi-Kalahroudi, Janarthanan Rajendran, Ida Momennejad, Sarath Chandar, Harm van Seijen
+  - Key: local change adaptation
+  - ExpEnv: [GridWorldLoCA, ReacherLoCA, MountaincarLoCA](https://github.com/chandar-lab/LoCA2)
+
+- [Efficient Model-based Multi-agent Reinforcement Learning via Optimistic Equilibrium Computation](https://arxiv.org/pdf/2203.07322.pdf)
+  - Pier Giuseppe Sessa, Maryam Kamgarpour, Andreas Krause
+  - Key: model-based multi-agent + confidence bound
+  - ExpEnv: [SMART](https://github.com/huawei-noah/SMARTS)
+
+- [Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning](https://arxiv.org/pdf/2206.07166.pdf)
+  - Shentao Yang, Yihao Feng, Shujian Zhang, Mingyuan Zhou
+  - Key: offline rl + model-based rl + stationary distribution regularization
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [Design-Bench: Benchmarks for Data-Driven Offline Model-Based Optimization](https://arxiv.org/pdf/2202.08450.pdf)
+  - Brandon Trabucco, Xinyang Geng, Aviral Kumar, Sergey Levine
+  - Key: benchmark + offline MBO
+  - ExpEnv: [Design-Bench Benchmark Tasks](https://github.com/rail-berkeley/design-bench)
+
+- [Temporal Difference Learning for Model Predictive Control](https://arxiv.org/pdf/2203.04955.pdf)
+  - Nicklas Hansen, Hao Su, Xiaolong Wang
+  - Key: td-learning + MPC
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/rlworkgroup/metaworld)
 
 
 ### ICLR 2022
