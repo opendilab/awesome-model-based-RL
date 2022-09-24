@@ -6,7 +6,10 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2022.07.06] New: We update the ICML 2022 paper list of model-based rl!
+<font color="red">[2022.10.06] New: We update the NeurIPS 2022 paper list of model-based rl! 
+Full list of #neurips-2022 will be released untill the OpenReview is open access.
+
+[2022.07.06] We update the ICML 2022 paper list of model-based rl.
 
 [2022.02.13] We update the ICLR 2022 paper list of model-based rl.</font>
 </pre>
@@ -17,8 +20,9 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICML 2022](#icml-2022) (**<font color="red">New!!!</font>**) 
-  - [ICLR 2022](#iclr-2022) 
+  - [NeurIPS 2022](#neurips-2022)(**<font color="red">New!!!</font>**)
+  - [ICML 2022](#icml-2022)
+  - [ICLR 2022](#iclr-2022)
   - [NeurIPS 2021](#neurips-2021)
   - [ICLR 2021](#iclr-2021)
   - [ICML 2021](#icml-2021)
@@ -137,6 +141,104 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS + value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+
+### NeurIPS 2022
+
+- [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://arxiv.org/abs/2209.07507)
+  - Can Chen, Yingxue Zhang, Jie Fu, Xue Liu, Mark Coates
+  - Key: model-based + offline
+  - ExpEnv: [design-bench](https://github.com/rail-berkeley/design-bench)
+
+- [Model-Based Opponent Modeling](https://arxiv.org/abs/2108.01843)
+  - XiaoPeng Yu, Jiechuan Jiang, Wanpeng Zhang, Haobin Jiang, Zongqing Lu
+  - Key: multi-agent + model-based
+  - ExpEnv: [mpe](https://github.com/openai/multiagent-particle-envs), [google research football](https://github.com/google-research/football)
+
+- [Double Check Your State Before Trusting It: Confidence-Aware Bidirectional Offline Model-Based Imagination](https://arxiv.org/abs/2206.07989?context=cs.AI)
+  - Jiafei Lyu, Xiu Li, Zongqing Lu
+  - Key: double check mechanism + bidirectional modeling + offline RL
+  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
+
+- [Mingling Foresight with Imagination: Model-Based Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2204.09418)
+  - Zhiwei Xu, Dapeng Li, Bin Zhang, Yuan Zhan, Yunpeng Bai, Guoliang Fan
+  - Key: multi-agent + model-based
+  - ExpEnv: [StarCraft II](https://github.com/deepmind/pysc2), [Google Research Football](https://github.com/google-research/football), [Multi-Agent Discrete MuJoCo](https://github.com/schroederdewitt/multiagent_mujoco)
+<!-- - TODO 
+- [MoCoDA: Model-based Counterfactual Data Augmentation]()
+  - Silviu Pitis, Elliot Creager, Ajay Mandlekar, Animesh Garg
+  - Key: 
+  - ExpEnv: 
+
+- [When to Update Your Model: Constrained Model-based Reinforcement Learning]()
+  - Tianying Ji, Yu Luo, Fuchun Sun, Mingxuan Jing, Fengxiang He, Wenbing Huang
+  - Key: 
+  - ExpEnv: 
+
+- [Bayesian Optimistic Optimization: Optimistic Exploration for Model-based Reinforcement Learning]()
+  - Chenyang Wu, Tianci Li, Zongzhang Zhang, Yang Yu
+  - Key: 
+  - ExpEnv: 
+
+- [Model-based Safe Deep Reinforcement Learning via a Constrained Proximal Policy Optimization Algorithm]()
+  - Ashish Jayant, Shalabh Bhatnagar
+  - Key: 
+  - ExpEnv: 
+
+- [Learning to Attack Federated Learning: A Model-based Reinforcement Learning Attack Framework]()
+  - Henger Li, Xiaolin Sun, Zizhan Zheng
+  - Key: 
+  - ExpEnv: 
+
+- [Model-Based Imitation Learning for Urban Driving]()
+  - Anthony Hu, Gianluca Corrado, Nicolas Griffiths, Zachary Murez, Corina Gurau, Hudson Yeo, Alex Kendall, Roberto Cipolla, Jamie Shotton
+  - Key: 
+  - ExpEnv: 
+
+- [Data-Driven Model-Based Optimization via Invariant Representation Learning]()
+  - Han Qi, Yi Su, Aviral Kumar, Sergey Levine
+  - Key: 
+  - ExpEnv: 
+
+- [Model-based Lifelong Reinforcement Learning with Bayesian Exploration]()
+  - Haotian Fu, Shangqun Yu, Michael Littman, George Konidaris
+  - Key: 
+  - ExpEnv: 
+
+- [Joint Model-Policy Optimization of a Lower Bound for Model-Based RL]()
+  - Benjamin Eysenbach, Alexander Khazatsky, Sergey Levine, Russ Salakhutdinov
+  - Key: 
+  - ExpEnv: 
+
+- [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief]()
+  - Kaiyang Guo, Shao Yunfeng, Yanhui Geng
+  - Key: 
+  - ExpEnv: 
+
+- [Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning]()
+  - Zifan Wu, Chao Yu, Chen Chen, Jianye Hao, Hankz Hankui Zhuo
+  - Key: 
+  - ExpEnv: 
+-->
+- [RAMBO-RL: Robust Adversarial Model-Based Offline Reinforcement Learning](https://arxiv.org/abs/2204.12581)
+  - Marc Rigter, Bruno Lacerda, Nick Hawes
+  - Key: offline rl + model-based rl + two-player game + adversarial model training
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [Conservative Dual Policy Optimization for Efficient Model-Based Reinforcement Learning](https://arxiv.org/abs/2209.07676)
+  - Shenao Zhang
+  - Key: posterior sampling RL + referential update + constrained conservative update
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [N-Chain MDPs](https://github.com/stratisMarkou/sample-efficient-bayesian-rl/blob/master/code/Environments.py)
+
+- [Model-based RL with Optimistic Posterior Sampling: Structural Conditions and Sample Complexity](https://arxiv.org/abs/2206.07659)
+  - Alekh Agarwal, Tong Zhang
+  - Key: posterior sampling RL + Bellman error decoupling framework
+  - ExpEnv: None
+
+- [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/abs/2112.14195)
+  - Gene Li, Junbo Li, Nathan Srebro, Zhaoran Wang, Zhuoran Yang
+  - Key: optimistic model-based + score matching
+  - ExpEnv: None
 
 
 ### ICML 2022
@@ -476,13 +578,13 @@ format:
 
 - [Temporal Predictive Coding For Model-Based Planning In Latent Space](https://arxiv.org/abs/2106.07156)
   - Tung Nguyen, Rui Shu, Tuan Pham, Hung Bui, Stefano Ermon
-  - Key: temporal predictive coding with a RSSM + latent space 
+  - Key: temporal predictive coding with a RSSM + latent space
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
 
 - [Model-based Reinforcement Learning for Continuous Control with Posterior Sampling](https://arxiv.org/abs/2012.09613)
   - Ying Fan, Yifei Ming
   - Key: regret bound of psrl + mpc
-  - ExpEnv: [continuous cartpole, pendulum swingup,](https://github.com/openai/gym), [mujoco](https://github.com/openai/mujoco-py)
+  - ExpEnv: [continuous cartpole, pendulum swingup](https://github.com/openai/gym), [mujoco](https://github.com/openai/mujoco-py)
 
 - [A Sharp Analysis of Model-based Reinforcement Learning with Self-Play](https://arxiv.org/abs/2010.01604)
   - Qinghua Liu, Tiancheng Yu, Yu Bai, Chi Jin
