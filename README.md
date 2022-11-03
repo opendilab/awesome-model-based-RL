@@ -1,13 +1,12 @@
 # Awesome Model-Based Reinforcement Learning 
 
 This is a collection of research papers for **model-based reinforcement learning (mbrl)**.
-And the repository will be continuously updated to track the frontier of model-based rl. 
+And the repository will be continuously updated to track the frontier of model-based rl.
 
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2022.10.06] New: We update the NeurIPS 2022 paper list of model-based rl! 
-Full list of #neurips-2022 will be released untill the OpenReview is open access.
+<font color="red">[2022.11.03] New: We update the NeurIPS 2022 paper list of model-based rl!
 
 [2022.07.06] We update the ICML 2022 paper list of model-based rl.
 
@@ -145,99 +144,118 @@ format:
 
 ### NeurIPS 2022
 
-- [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://arxiv.org/abs/2209.07507)
+- [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://openreview.net/forum?id=_j8yVIyp27Q)
   - Can Chen, Yingxue Zhang, Jie Fu, Xue Liu, Mark Coates
   - Key: model-based + offline
+  - OpenReview: 7, 6, 5
   - ExpEnv: [design-bench](https://github.com/rail-berkeley/design-bench)
+
+- [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief](https://openreview.net/forum?id=oDWyVsHBzNT)
+  - Kaiyang Guo, Shao Yunfeng, Yanhui Geng
+  - Key: model-based + offline
+  - OpenReview: 8, 8, 7, 7
+  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
+
+- [Double Check Your State Before Trusting It: Confidence-Aware Bidirectional Offline Model-Based Imagination](https://openreview.net/forum?id=3e3IQMLDSLP)
+  - Jiafei Lyu, Xiu Li, Zongqing Lu
+  - Key: double check mechanism + bidirectional modeling + offline RL
+  - OpenReview: 7, 6, 6
+  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
 
 - [Model-Based Opponent Modeling](https://arxiv.org/abs/2108.01843)
   - XiaoPeng Yu, Jiechuan Jiang, Wanpeng Zhang, Haobin Jiang, Zongqing Lu
   - Key: multi-agent + model-based
+  - OpenReview: 7, 6, 4, 3
   - ExpEnv: [mpe](https://github.com/openai/multiagent-particle-envs), [google research football](https://github.com/google-research/football)
-
-- [Double Check Your State Before Trusting It: Confidence-Aware Bidirectional Offline Model-Based Imagination](https://arxiv.org/abs/2206.07989?context=cs.AI)
-  - Jiafei Lyu, Xiu Li, Zongqing Lu
-  - Key: double check mechanism + bidirectional modeling + offline RL
-  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
 
 - [Mingling Foresight with Imagination: Model-Based Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2204.09418)
   - Zhiwei Xu, Dapeng Li, Bin Zhang, Yuan Zhan, Yunpeng Bai, Guoliang Fan
   - Key: multi-agent + model-based
+  - OpenReview: 6, 5
   - ExpEnv: [StarCraft II](https://github.com/deepmind/pysc2), [Google Research Football](https://github.com/google-research/football), [Multi-Agent Discrete MuJoCo](https://github.com/schroederdewitt/multiagent_mujoco)
-<!-- - TODO 
-- [MoCoDA: Model-based Counterfactual Data Augmentation]()
+
+- [MoCoDA: Model-based Counterfactual Data Augmentation](https://openreview.net/forum?id=w6tBOjPCrIO)
   - Silviu Pitis, Elliot Creager, Ajay Mandlekar, Animesh Garg
-  - Key: 
-  - ExpEnv: 
+  - Key: data augmentation framework + offline RL
+  - OpenReview: 7, 7, 7, 6
+  - ExpEnv: [2D Navigation](https://github.com/spitis/mocoda/blob/main/augment_offline_toy.py#L45), [Hook-Sweep](https://github.com/spitis/mrl/blob/master/envs/customfetch/custom_fetch.py#L1699)
 
-- [When to Update Your Model: Constrained Model-based Reinforcement Learning]()
+- [When to Update Your Model: Constrained Model-based Reinforcement Learning](https://openreview.net/forum?id=9a1oV7UunyP)
   - Tianying Ji, Yu Luo, Fuchun Sun, Mingxuan Jing, Fengxiang He, Wenbing Huang
-  - Key: 
-  - ExpEnv: 
+  - Key: event-triggered mechanism + constrained model-shift lower-bound optimization
+  - OpenReview: 6, 6, 5, 5
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
-- [Bayesian Optimistic Optimization: Optimistic Exploration for Model-based Reinforcement Learning]()
-  - Chenyang Wu, Tianci Li, Zongzhang Zhang, Yang Yu
-  - Key: 
-  - ExpEnv: 
-
-- [Model-based Safe Deep Reinforcement Learning via a Constrained Proximal Policy Optimization Algorithm]()
+- [Model-based Safe Deep Reinforcement Learning via a Constrained Proximal Policy Optimization Algorithm](https://openreview.net/forum?id=hYa_lseXK8)
   - Ashish Jayant, Shalabh Bhatnagar
-  - Key: 
-  - ExpEnv: 
+  - Key: constrained RL + model-based
+  - OpenReview: 7, 6, 5, 5
+  - ExpEnv: [safety gym](https://github.com/openai/safety-gym)
 
-- [Learning to Attack Federated Learning: A Model-based Reinforcement Learning Attack Framework]()
+- [Learning to Attack Federated Learning: A Model-based Reinforcement Learning Attack Framework](https://openreview.net/forum?id=4OHRr7gmhd4)
   - Henger Li, Xiaolin Sun, Zizhan Zheng
-  - Key: 
-  - ExpEnv: 
+  - Key: attack & defense +  federated learning + model-based
+  - OpenReview: 6, 6, 6, 5
+  - ExpEnv: MNIST, FashionMNIST, EMNIST, CIFAR-10 and synthetic dataset
 
-- [Model-Based Imitation Learning for Urban Driving]()
+- [Model-Based Imitation Learning for Urban Driving](https://openreview.net/forum?id=Zk1SbbdZwS)
   - Anthony Hu, Gianluca Corrado, Nicolas Griffiths, Zachary Murez, Corina Gurau, Hudson Yeo, Alex Kendall, Roberto Cipolla, Jamie Shotton
-  - Key: 
-  - ExpEnv: 
+  - Key: model-based + imitation learning + autonomous driving
+  - OpenReview: 7, 6, 6
+  - ExpEnv: [CARLA](https://github.com/wayveai/mile/tree/main/carla_gym)
 
-- [Data-Driven Model-Based Optimization via Invariant Representation Learning]()
+- [Data-Driven Model-Based Optimization via Invariant Representation Learning](https://openreview.net/forum?id=gKe_A-DxzkH)
   - Han Qi, Yi Su, Aviral Kumar, Sergey Levine
-  - Key: 
-  - ExpEnv: 
+  - Key: domain adaptation + invariant objective models + representation learning (no about model-based RL)
+  - OpenReview: 7, 6, 6, 5, 5
+  - ExpEnv: [design-bench](https://github.com/rail-berkeley/design-bench)
 
-- [Model-based Lifelong Reinforcement Learning with Bayesian Exploration]()
+- [Model-based Lifelong Reinforcement Learning with Bayesian Exploration](https://openreview.net/forum?id=6I3zJn9Slsb)
   - Haotian Fu, Shangqun Yu, Michael Littman, George Konidaris
-  - Key: 
-  - ExpEnv: 
+  - Key: lifelong RL + variational bayesian
+  - OpenReview: 7, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [meta-world](https://github.com/rlworkgroup/metaworld)
 
-- [Joint Model-Policy Optimization of a Lower Bound for Model-Based RL]()
-  - Benjamin Eysenbach, Alexander Khazatsky, Sergey Levine, Russ Salakhutdinov
-  - Key: 
-  - ExpEnv: 
-
-- [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief]()
-  - Kaiyang Guo, Shao Yunfeng, Yanhui Geng
-  - Key: 
-  - ExpEnv: 
-
-- [Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning]()
+- [Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning](https://openreview.net/forum?id=L9YayWPcHA_)
   - Zifan Wu, Chao Yu, Chen Chen, Jianye Hao, Hankz Hankui Zhuo
-  - Key: 
-  - ExpEnv: 
--->
-- [RAMBO-RL: Robust Adversarial Model-Based Offline Reinforcement Learning](https://arxiv.org/abs/2204.12581)
+  - Key: treat the model rollout process as a sequential decision making problem
+  - OpenReview: 7, 7, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [Joint Model-Policy Optimization of a Lower Bound for Model-Based RL](https://openreview.net/forum?id=LYfFj-Vk6lt)
+  - Benjamin Eysenbach, Alexander Khazatsky, Sergey Levine, Russ Salakhutdinov
+  - Key: unified objective for model-based RL
+  - OpenReview: 8, 8, 7, 6
+  - ExpEnv: [gridworld](https://github.com/dennybritz/reinforcement-learning/blob/master/lib/envs/gridworld.py), [mujoco](https://github.com/openai/mujoco-py), [ROBEL manipulation](https://github.com/google-research/robel)
+
+- [RAMBO-RL: Robust Adversarial Model-Based Offline Reinforcement Learning](https://openreview.net/forum?id=nrksGSRT7kX)
   - Marc Rigter, Bruno Lacerda, Nick Hawes
   - Key: offline rl + model-based rl + two-player game + adversarial model training
+  - OpenReview: 6, 6, 6, 4
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
 
-- [Conservative Dual Policy Optimization for Efficient Model-Based Reinforcement Learning](https://arxiv.org/abs/2209.07676)
+- [Conservative Dual Policy Optimization for Efficient Model-Based Reinforcement Learning](https://openreview.net/forum?id=xL7B5axplIe)
   - Shenao Zhang
   - Key: posterior sampling RL + referential update + constrained conservative update
+  - OpenReview: 7, 7, 5, 5
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [N-Chain MDPs](https://github.com/stratisMarkou/sample-efficient-bayesian-rl/blob/master/code/Environments.py)
 
-- [Model-based RL with Optimistic Posterior Sampling: Structural Conditions and Sample Complexity](https://arxiv.org/abs/2206.07659)
+- [Bayesian Optimistic Optimization: Optimistic Exploration for Model-based Reinforcement Learning](https://openreview.net/forum?id=GdHVClGh9N)
+  - Chenyang Wu, Tianci Li, Zongzhang Zhang, Yang Yu
+  - Key: optimism in the face of uncertainty(OFU) + BOO Regret
+  - OpenReview: 6, 6, 5
+  - ExpEnv: [RiverSwim, Chain, Random MDPs]()
+
+- [Model-based RL with Optimistic Posterior Sampling: Structural Conditions and Sample Complexity](https://openreview.net/forum?id=bEMrmaw8gOB)
   - Alekh Agarwal, Tong Zhang
   - Key: posterior sampling RL + Bellman error decoupling framework
+  - OpenReview: 7, 7, 7, 6
   - ExpEnv: None
 
-- [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://arxiv.org/abs/2112.14195)
+- [Exponential Family Model-Based Reinforcement Learning via Score Matching](https://openreview.net/forum?id=G1uywu6vNZe)
   - Gene Li, Junbo Li, Nathan Srebro, Zhaoran Wang, Zhuoran Yang
   - Key: optimistic model-based + score matching
+  - OpenReview: 7, 7, 6
   - ExpEnv: None
 
 
