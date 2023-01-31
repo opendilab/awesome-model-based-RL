@@ -8,7 +8,8 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<!-- <font color="red">[2023.01.22] New: We update the ICLR 2023 paper list of model-based rl!</font> -->
+<font color="red">[2023.01.31] New: We update the ICLR 2023 paper list of model-based rl!</font>
+
 [2022.11.03] We update the NeurIPS 2022 paper list of model-based rl.
 
 [2022.07.06] We update the ICML 2022 paper list of model-based rl.
@@ -24,7 +25,7 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  <!-- - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**) -->
+  - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**)
   - [NeurIPS 2022](#neurips-2022)
   - [ICML 2022](#icml-2022)
   - [ICLR 2022](#iclr-2022)
@@ -147,6 +148,51 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+
+### ICLR 2023
+
+- [Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization](https://openreview.net/forum?id=dNqxZgyjcYA)
+  - Jihwan Jeong, Xiaoyu Wang, Michael Gimelfarb, Hyunwoo Kim, Baher Abdulhai, Scott Sanner
+  - Key: model-based offline, bayesian posterior value estimate
+  - OpenReview: 8, 8, 6, 6
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [CLARE: Conservative Model-Based Reward Learning for Offline Inverse Reinforcement Learning](https://openreview.net/forum?id=5aT4ganOd98)
+  <!-- -  -->
+  - Key: offline IRL, reward extrapolation error
+  - OpenReview: 8, 8, 6, 6
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [Is Model Ensemble Necessary? Model-based RL via a Single Model with Lipschitz Regularized Value Function](https://openreview.net/forum?id=hNyJBk3CwR)
+  - Ruijie Zheng, Xiyao Wang, Huazhe Xu, Furong Huang
+  - Key: lipschitz regularization
+  - OpenReview: 8, 8, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations](https://openreview.net/forum?id=JdTnc9gjVfJ)
+  - Nicklas Hansen, Yixin Lin, Hao Su, Xiaolong Wang, Vikash Kumar, Aravind Rajeswaran
+  - Key: three phases -- policy pretraining, targeted exploration, interactive learning
+  - OpenReview: 8, 6, 6, 6
+  - ExpEnv: [adroit](https://github.com/aravindr93/mjrl), [meta-world](https://github.com/rlworkgroup/metaworld), [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective](https://openreview.net/forum?id=MQcmfgRxf7a)
+  - Raj Ghugare, Homanga Bharadhwaj, Benjamin Eysenbach, Sergey Levine, Ruslan Salakhutdinov
+  - Key: Aligned Latent Models
+  - OpenReview: 8, 6, 6, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [The Benefits of Model-Based Generalization in Reinforcement Learning](https://openreview.net/forum?id=w1w4dGJ4qV)
+  - Kenny Young, Aditya Ramesh, Louis Kirsch, Jürgen Schmidhuber
+  - Key: model generalization can be considered more useful than value function generalization
+  - OpenReview: 8, 6, 5, 5
+  - ExpEnv: [ProcMaze, ButtonGrid, PanFlute]()
+
+- [Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning](https://openreview.net/forum?id=H4Ncs5jhTCu)
+  <!-- -  -->
+  - Key: longer horizons yield diminishing returns in terms of sample efficiency
+  - OpenReview: 8, 6, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
 
 ### NeurIPS 2022
