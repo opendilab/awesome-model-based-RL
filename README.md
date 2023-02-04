@@ -8,7 +8,7 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2023.01.31] New: We update the ICLR 2023 paper list of model-based rl!</font>
+<font color="red">[2023.02.05] New: We update the ICLR 2023 paper list of model-based rl!</font>
 
 [2022.11.03] We update the NeurIPS 2022 paper list of model-based rl.
 
@@ -158,11 +158,29 @@ format:
   - OpenReview: 8, 8, 6, 6
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
 
+- [User-Interactive Offline Reinforcement Learning](https://openreview.net/forum?id=a4COps0uokg)
+  - Phillip Swazinna, Steffen Udluft, Thomas Runkler
+  - Key: let the user adapt the policy behavior after training is finished
+  - OpenReview: 10, 8, 6, 3
+  - ExpEnv: [2d-world](), [industrial benchmark](https://github.com/siemens/industrialbenchmark/tree/offline_datasets/datasets)
+
 - [CLARE: Conservative Model-Based Reward Learning for Offline Inverse Reinforcement Learning](https://openreview.net/forum?id=5aT4ganOd98)
-  <!-- -  -->
+  - Sheng Yue, Guanbo Wang, Wei Shao, Zhaofeng Zhang, Sen Lin, Ju Ren, Junshan Zhang
   - Key: offline IRL, reward extrapolation error
   - OpenReview: 8, 8, 6, 6
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [Efficient Offline Policy Optimization with a Learned Model](https://openreview.net/forum?id=Yt-yM-JbYFO)
+  - Zichen Liu, Siyi Li, Wee Sun Lee, Shuicheng YAN, Zhongwen Xu
+  - Key: offline rl, analysis of MuZero Unplugged, one-step look-ahead policy improvement
+  - OpenReview: 8, 6, 5
+  - ExpEnv: [atari dataset](https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged)
+
+- [Efficient Planning in a Compact Latent Action Space](https://openreview.net/forum?id=cA77NrVEuqn)
+  - zhengyao jiang, Tianjun Zhang, Michael Janner, Yueying Li, Tim Rocktäschel, Edward Grefenstette, Yuandong Tian
+  - Key: planning with VQ-VAE
+  - OpenReview: 6, 6, 6, 6
+  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
 
 - [Is Model Ensemble Necessary? Model-based RL via a Single Model with Lipschitz Regularized Value Function](https://openreview.net/forum?id=hNyJBk3CwR)
   - Ruijie Zheng, Xiyao Wang, Huazhe Xu, Furong Huang
@@ -182,17 +200,65 @@ format:
   - OpenReview: 8, 6, 6, 6, 6
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
-- [The Benefits of Model-Based Generalization in Reinforcement Learning](https://openreview.net/forum?id=w1w4dGJ4qV)
+<!-- - [The Benefits of Model-Based Generalization in Reinforcement Learning](https://openreview.net/forum?id=w1w4dGJ4qV)
   - Kenny Young, Aditya Ramesh, Louis Kirsch, Jürgen Schmidhuber
   - Key: model generalization can be considered more useful than value function generalization
   - OpenReview: 8, 6, 5, 5
-  - ExpEnv: [ProcMaze, ButtonGrid, PanFlute]()
+  - ExpEnv: [ProcMaze, ButtonGrid, PanFlute]() -->
 
 - [Diminishing Return of Value Expansion Methods in Model-Based Reinforcement Learning](https://openreview.net/forum?id=H4Ncs5jhTCu)
-  <!-- -  -->
+  - Daniel Palenicek, Michael Lutter, Joao Carvalho, Jan Peters
   - Key: longer horizons yield diminishing returns in terms of sample efficiency
   - OpenReview: 8, 6, 6, 6
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [Planning Goals for Exploration](https://openreview.net/forum?id=6qeBuZSo7Pr)
+  - Edward S. Hu, Richard Chang, Oleh Rybkin, Dinesh Jayaraman
+  - Key: sampling-based planning, set goals for each training episode to directly optimize an intrinsic exploration reward
+  - OpenReview: 8, 8, 8, 8, 6
+  - ExpEnv: [point maze](), [walker](https://github.com/deepmind/dm_control), [ant maze, 3-block stack](https://github.com/spitis/mrl/tree/master/envs)
+
+- [Making Better Decision by Directly Planning in Continuous Control](https://openreview.net/forum?id=r8Mu7idxyF)
+  - Jinhua Zhu, Yue Wang, Lijun Wu, Tao Qin, Wengang Zhou, Tie-Yan Liu, Houqiang Li
+  - Key: deep differentiable dynamic programming planner
+  - OpenReview: 8, 8, 8, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [Latent Variable Representation for Reinforcement Learning](https://openreview.net/forum?id=mQpmZVzXK1h)
+  - Tongzheng Ren, Chenjun Xiao, Tianjun Zhang, Na Li, Zhaoran Wang, sujay sanghavi, Dale Schuurmans, Bo Dai
+  - Key: variational learning, representation learning
+  - OpenReview: 8, 6, 6, 3
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [SpeedyZero: Mastering Atari with Limited Data and Time](https://openreview.net/forum?id=Mg5CLXZgvLJ)
+  - Yixuan Mei, Jiaxuan Gao, Weirui Ye, Shaohuai Liu, Yang Gao, Yi Wu
+  - Key: distributed model-based rl, speed up EfficientZero
+  - OpenReview: 6, 6, 5
+  - ExpEnv: [atari 100k](https://github.com/openai/gym)
+
+- [Transformer-based World Models Are Happy With 100k Interactions](https://openreview.net/forum?id=TdBaDGCpjly)
+  - Jan Robine, Marc Höftmann, Tobias Uelwer, Stefan Harmeling
+  - Key: autoregressive world model, Transformer-XL, balanced cross-entropy loss, balanced dataset sampling
+  - OpenReview: 8, 6, 6, 6
+  - ExpEnv: [atari 100k](https://github.com/openai/gym)
+
+- [On the Feasibility of Cross-Task Transfer with Model-Based Reinforcement Learning](https://openreview.net/forum?id=KB1sc5pNKFv)
+  - Yifan Xu, Nicklas Hansen, Zirui Wang, Yung-Chieh Chan, Hao Su, Zhuowen Tu
+  - Key: offline multi-task pretraining, online finetuning
+  - OpenReview: 6, 6, 6, 6
+  - ExpEnv: [atari 100k](https://github.com/openai/gym)
+
+- [Become a Proficient Player with Limited Data through Watching Pure Videos](https://openreview.net/forum?id=Sy-o2N0hF4f)
+  - Weirui Ye, Yunsheng Zhang, Pieter Abbeel, Yang Gao
+  - Key: unsupervised pre-training, finetune with down-stream tasks
+  - OpenReview: 8, 6, 6, 5
+  - ExpEnv: [atari 100k](https://github.com/openai/gym)
+
+- [EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model](https://openreview.net/forum?id=xQAjSr64PTc)
+  - Yifu Yuan, Jianye HAO, Fei Ni, Yao Mu, YAN ZHENG, Yujing Hu, Jinyi Liu, Yingfeng Chen, Changjie Fan
+  - Key: jointly pretrain the multi-headed dynamics model and unsupervised exploration policy, finetune to downstream tasks
+  - OpenReview: 6, 6, 6, 6
+  - ExpEnv: [URLB benchmark](https://github.com/rll-research/url_benchmark)
 
 
 ### NeurIPS 2022
