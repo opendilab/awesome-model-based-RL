@@ -32,6 +32,7 @@ Welcome to follow and star!
   - [NeurIPS 2021](#neurips-2021)
   - [ICLR 2021](#iclr-2021)
   - [ICML 2021](#icml-2021)
+  - [Other](#other)
 - [Contributing](#contributing)
 
 
@@ -136,7 +137,7 @@ format:
 
 - [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603)
   - Danijar Hafner, Timothy Lillicrap, Jimmy Ba, Mohammad Norouzi. *ICLR 2019*
-  - Key: latent space imagination
+  - Key: DreamerV1, latent space imagination
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [atari](https://github.com/openai/gym), [deepmind lab](https://github.com/deepmind/lab)
 
 - [Exploring Model-based Planning with Policy Networks](https://openreview.net/forum?id=H1exf64KwH)
@@ -635,7 +636,7 @@ format:
 
 - [Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193)
   - Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, Jimmy Ba
-  - Key: Dreamer V1, many tricks(multiple categorical variables, KL balancing, etc)
+  - Key: DreamerV2, many tricks(multiple categorical variables, KL balancing, etc)
   - OpenReview: 9, 8, 5, 4
   - ExpEnv: [atari](https://github.com/openai/gym)
 
@@ -728,6 +729,13 @@ format:
   - Key: learning theory, multi-agent, model-based self play, two-player zero-sum Markov games
   - ExpEnv: None
 
+
+### Other
+
+- [Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104)
+  - Danijar Hafner, Jurgis Pasukonis, Jimmy Ba, Timothy Lillicrap. *Arxiv 2023*
+  - Key: DreamerV3, scaling property to world model
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [atari](https://github.com/openai/gym), [DMLab](https://github.com/deepmind/lab), [minecraft](https://github.com/minerllabs/minerl)
 
 
 ## Contributing
