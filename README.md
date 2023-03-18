@@ -40,13 +40,13 @@ Welcome to follow and star!
 
 We’ll start this section with a disclaimer: it’s really quite hard to draw an accurate, all-encompassing taxonomy of algorithms in the Model-Based RL space, because the modularity of algorithms is not well-represented by a tree structure. So we will publish a series of related blogs to explain more Model-Based RL algorithms.
 
-<center>
+<p align="center">
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
     src="./assets/mbrl-taxonomy.png">
     <br>
-    <center>A non-exhaustive, but useful taxonomy of algorithms in modern Model-Based RL.</center>
-</center>
+    <em style="display: inline-block;">A non-exhaustive, but useful taxonomy of algorithms in modern Model-Based RL.</em>
+</p>
 
 We simply divide `Model-Based RL`  into two categories: `Learn the Model` and `Given the Model`.
 
@@ -269,6 +269,12 @@ format:
   - Key: model-based, offline
   - OpenReview: 7, 6, 5
   - ExpEnv: [design-bench](https://github.com/rail-berkeley/design-bench)
+
+- [A Unified Framework for Alternating Offline Model Training and Policy Learning](https://openreview.net/forum?id=5yjM1sQ1uKZ)
+  - Shentao Yang, Shujian Zhang, Yihao Feng, Mingyuan Zhou
+  - Key: model-based, offline, marginal importance weight
+  - OpenReview: 7, 6, 6, 5
+  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
 
 - [Model-Based Offline Reinforcement Learning with Pessimism-Modulated Dynamics Belief](https://openreview.net/forum?id=oDWyVsHBzNT)
   - Kaiyang Guo, Shao Yunfeng, Yanhui Geng
@@ -603,7 +609,7 @@ format:
 
 - [Weighted model estimation for offline model-based reinforcement learning](https://openreview.net/pdf?id=zdC5eXljMPy)
   - Toru Hishinuma, Kei Senda
-  - Key: model-based, offline
+  - Key: model-based, offline, off-policy evaluation
   - OpenReview: 7, 6, 6, 6
   - ExpEnv: pendulum, [d4rl dataset](https://github.com/rail-berkeley/d4rl)
 
