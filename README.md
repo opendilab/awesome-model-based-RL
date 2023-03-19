@@ -1,4 +1,4 @@
-# Awesome Model-Based Reinforcement Learning 
+# Awesome Model-Based Reinforcement Learning
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitors](https://visitor-badge.glitch.me/badge?page_id=opendilab/awesome-model-based-RL) ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow) ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf) [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
 
@@ -384,6 +384,11 @@ format:
   - OpenReview: 7, 7, 6
   - ExpEnv: None
 
+- [Deep Hierarchical Planning from Pixels](https://openreview.net/forum?id=wZk69kjy9_d)
+  - Danijar Hafner, Kuang-Huei Lee, Ian Fischer, Pieter Abbeel
+  - Key: hierarchical RL, long-horizon and sparse reward tasks
+  - OpenReview: 6, 6, 5
+  - ExpEnv: [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [deepmind lab](https://github.com/deepmind/lab), [crafter](https://github.com/danijar/crafter)
 
 ### ICML 2022
 
@@ -520,6 +525,11 @@ format:
   - OpenReview: 8, 6, 6, 5
   - ExpEnv: None
 
+- [Know Thyself: Transferable Visual Control Policies Through Robot-Awareness](https://openreview.net/forum?id=o0ehFykKVtr)
+  - Edward S. Hu, Kun Huang, Oleh Rybkin, Dinesh Jayaraman
+  - Key: world models that transfer to new robots
+  - OpenReview: 8, 6, 6, 5
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), WidowX and Franka Panda robot
 
 ### NeurIPS 2021
 
@@ -625,6 +635,11 @@ format:
   - OpenReview: 7, 7, 7, 6
   - ExpEnv: None
 
+- [Discovering and Achieving Goals via World Models](https://openreview.net/forum?id=6vWuYzkp8d)
+  - Russell Mendonca, Oleh Rybkin, Kostas Daniilidis, Danijar Hafner, Deepak Pathak
+  - Key: unsupervised goal reaching, goal-conditioned RL
+  - OpenReview: 6, 6, 6, 6, 6
+  - ExpEnv: [walker, quadruped, bins, kitchen](https://github.com/orybkin/lexa-benchmark)
 
 ### ICLR 2021
 
@@ -678,7 +693,7 @@ format:
 
 - [Model-based micro-data reinforcement learning: what are the crucial model properties and which model to choose?](https://openreview.net/forum?id=p5uylG94S68)
   - Balázs Kégl, Gabriel Hurtado, Albert Thomas
-  - Key: mixture density nets, heteroscedasticity 
+  - Key: mixture density nets, heteroscedasticity
   - OpenReview: 7, 7, 7, 6, 5
   - ExpEnv: [acrobot system](https://github.com/openai/gym)
 
