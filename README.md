@@ -56,13 +56,13 @@ We simply divide `Model-Based RL`  into two categories: `Learn the Model` and `G
 
 And we give some examples as shown in the figure above. There are links to algorithms in taxonomy.
 
->[1] [World Models](https://worldmodels.github.io/): Ha and Schmidhuber, 2018
-[2] [I2A](https://arxiv.org/abs/1707.06203) (Imagination-Augmented Agents): Weber et al, 2017
-[3] [MBMF](https://sites.google.com/view/mbmf) (Model-Based RL with Model-Free Fine-Tuning): Nagabandi et al, 2017
-[4] [MBVE](https://arxiv.org/abs/1803.00101) (Model-Based Value Expansion): Feinberg et al, 2018
-[5] [ExIt](https://arxiv.org/abs/1705.08439) (Expert Iteration): Anthony et al, 2017
-[6] [AlphaZero](https://arxiv.org/abs/1712.01815): Silver et al, 2017
-[7] [POPLIN](https://openreview.net/forum?id=H1exf64KwH) (Model-Based Policy Planning): Wang et al, 2019
+>[1] [World Models](https://worldmodels.github.io/): Ha and Schmidhuber, 2018  
+[2] [I2A](https://arxiv.org/abs/1707.06203) (Imagination-Augmented Agents): Weber et al, 2017  
+[3] [MBMF](https://sites.google.com/view/mbmf) (Model-Based RL with Model-Free Fine-Tuning): Nagabandi et al, 2017  
+[4] [MBVE](https://arxiv.org/abs/1803.00101) (Model-Based Value Expansion): Feinberg et al, 2018  
+[5] [ExIt](https://arxiv.org/abs/1705.08439) (Expert Iteration): Anthony et al, 2017  
+[6] [AlphaZero](https://arxiv.org/abs/1712.01815): Silver et al, 2017  
+[7] [POPLIN](https://openreview.net/forum?id=H1exf64KwH) (Model-Based Policy Planning): Wang et al, 2019  
 [8] [M2AC](https://arxiv.org/abs/2010.04893) (Masked Model-based Actor-Critic): Pan et al, 2020
 
 
@@ -387,7 +387,7 @@ format:
 - [Deep Hierarchical Planning from Pixels](https://openreview.net/forum?id=wZk69kjy9_d)
   - Danijar Hafner, Kuang-Huei Lee, Ian Fischer, Pieter Abbeel
   - Key: hierarchical RL, long-horizon and sparse reward tasks
-  - OpenReview: 6,6,5
+  - OpenReview: 6, 6, 5
   - ExpEnv: [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [deepmind lab](https://github.com/deepmind/lab), [crafter](https://github.com/danijar/crafter)
 
 ### ICML 2022
@@ -528,7 +528,7 @@ format:
 - [Know Thyself: Transferable Visual Control Policies Through Robot-Awareness](https://openreview.net/forum?id=o0ehFykKVtr)
   - Edward S. Hu, Kun Huang, Oleh Rybkin, Dinesh Jayaraman
   - Key: world models that transfer to new robots
-  - OpenReview: 8,6,6,5
+  - OpenReview: 8, 6, 6, 5
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), WidowX and Franka Panda robot
 
 ### NeurIPS 2021
@@ -638,7 +638,7 @@ format:
 - [Discovering and Achieving Goals via World Models](https://openreview.net/forum?id=6vWuYzkp8d)
   - Russell Mendonca, Oleh Rybkin, Kostas Daniilidis, Danijar Hafner, Deepak Pathak
   - Key: unsupervised goal reaching, goal-conditioned RL
-  - OpenReview: 6,6,6,6,6
+  - OpenReview: 6, 6, 6, 6, 6
   - ExpEnv: [walker, quadruped, bins, kitchen](https://github.com/orybkin/lexa-benchmark)
 
 ### ICLR 2021
