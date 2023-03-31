@@ -211,7 +211,7 @@ format:
   - Daniel Palenicek, Michael Lutter, Joao Carvalho, Jan Peters
   - Key: longer horizons yield diminishing returns in terms of sample efficiency
   - OpenReview: 8, 6, 6, 6
-  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+  - ExpEnv: [brax](https://github.com/google/brax)
 
 - [Planning Goals for Exploration](https://openreview.net/forum?id=6qeBuZSo7Pr)
   - Edward S. Hu, Richard Chang, Oleh Rybkin, Dinesh Jayaraman
