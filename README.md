@@ -1,6 +1,11 @@
 # Awesome Model-Based Reinforcement Learning
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitors](https://visitor-badge.glitch.me/badge?page_id=opendilab/awesome-model-based-RL) ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow) ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf) [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-model-based-RL)
+![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow)
+![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf)
+[![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
+<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=opendilab/awesome-model-based-RL) -->
 
 This is a collection of research papers for **model-based reinforcement learning (mbrl)**.
 And the repository will be continuously updated to track the frontier of model-based rl.
@@ -8,7 +13,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2023.02.05] New: We update the ICLR 2023 paper list of model-based rl!</font>
+<font color="red">[2023.06.05] <b>New: We update the ICML 2023 paper list of model-based rl!</b></font>
+
+[2023.02.05] We update the ICLR 2023 paper list of model-based rl.
 
 [2022.11.03] We update the NeurIPS 2022 paper list of model-based rl.
 
@@ -25,7 +32,8 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**)
+  - [ICML 2023](#icml-2023)(**<font color="red">New!!!</font>**)
+  - [ICLR 2023](#iclr-2023)
   - [NeurIPS 2022](#neurips-2022)
   - [ICML 2022](#icml-2022)
   - [ICLR 2022](#iclr-2022)
@@ -79,6 +87,9 @@ format:
 
 ### Classic Model-Based RL Papers
 
+<details open>
+<summary>Toggle</summary>
+
 - [Dyna, an integrated architecture for learning, planning, and reacting](https://dl.acm.org/doi/10.1145/122344.122377)
   - Richard S. Sutton. *ACM 1991*
   - Key: dyna architecture
@@ -89,7 +100,7 @@ format:
   - Key: probabilistic dynamics model
   - ExpEnv: cart-pole system, robotic unicycle
 
-- [Learning Complex Neural Network Policies with Trajectory Optimization]()
+- [Learning Complex Neural Network Policies with Trajectory Optimization](https://proceedings.mlr.press/v32/levine14.html)
   - Sergey Levine, Vladlen Koltun. *ICML 2014*
   - Key: guided policy search
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
@@ -150,8 +161,39 @@ format:
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
 
+</details>
+
+### ICML 2023
+
+<details open>
+<summary>Toggle</summary>
+
+- [Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels](https://arxiv.org/abs/2209.12016)
+  - Sai Rajeswar Mudumba, Pietro Mazzaglia, Tim Verbelen, Alexandre Piche, Bart Dhoedt, Aaron Courville, Alexandre Lacoste
+  - Key: unsupervised pretrain, task-aware finetune, dyna-mpc
+  - ExpEnv: [URLB benchmark](https://github.com/rll-research/url_benchmark), [RWRL suite](https://github.com/google-research/realworldrl_suite)
+
+- [Live in the Moment: Learning Dynamics Model Adapted to Evolving Policy](https://arxiv.org/abs/2207.12141)
+  - Xiyao Wang, Wichayaporn Wongkamjan, Ruonan Jia, Furong Huang
+  - Key: policy-adapted model learning, weight design
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+<!-- - [Model-based Offline Reinforcement Learning with Count-based Conservatism]()
+  - Byeongchan Kim, Min-hwan Oh
+  - Key:
+  - ExpEnv:
+
+- []()
+  - 
+  - Key:
+  - ExpEnv: -->
+
+</details>
 
 ### ICLR 2023
+
+<details open>
+<summary>Toggle</summary>
 
 - [Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization](https://openreview.net/forum?id=dNqxZgyjcYA)
   - Jihwan Jeong, Xiaoyu Wang, Michael Gimelfarb, Hyunwoo Kim, Baher Abdulhai, Scott Sanner
@@ -261,8 +303,18 @@ format:
   - OpenReview: 6, 6, 6, 6
   - ExpEnv: [URLB benchmark](https://github.com/rll-research/url_benchmark)
 
+- [Choreographer: Learning and Adapting Skills in Imagination](https://openreview.net/forum?id=PhkWyijGi5b)
+  - Pietro Mazzaglia, Tim Verbelen, Bart Dhoedt, Alexandre Lacoste, Sai Rajeswar
+  - Key: world model, skill discovery, skill learning, Skill adaptation
+  - OpenReview: 8, 8, 6, 6
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/Farama-Foundation/Metaworld)
+
+</details>
 
 ### NeurIPS 2022
+
+<details open>
+<summary>Toggle</summary>
 
 - [Bidirectional Learning for Offline Infinite-width Model-based Optimization](https://openreview.net/forum?id=_j8yVIyp27Q)
   - Can Chen, Yingxue Zhang, Jie Fu, Xue Liu, Mark Coates
@@ -390,7 +442,12 @@ format:
   - OpenReview: 6, 6, 5
   - ExpEnv: [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [deepmind lab](https://github.com/deepmind/lab), [crafter](https://github.com/danijar/crafter)
 
+</details>
+
 ### ICML 2022
+
+<details open>
+<summary>Toggle</summary>
 
 - [DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations](https://arxiv.org/abs/2110.14565)
   - Fei Deng, Ingook Jang, Sungjin Ahn
@@ -432,8 +489,12 @@ format:
   - Key: td-learning, MPC
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/rlworkgroup/metaworld)
 
+</details>
 
 ### ICLR 2022
+
+<details open>
+<summary>Toggle</summary>
 
 - [Revisiting Design Choices in Offline Model Based Reinforcement Learning](https://openreview.net/forum?id=zz9hXVhf40)
   - Cong Lu, Philip Ball, Jack Parker-Holder, Michael Osborne, Stephen J. Roberts
@@ -531,7 +592,12 @@ format:
   - OpenReview: 8, 6, 6, 5
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), WidowX and Franka Panda robot
 
+</details>
+
 ### NeurIPS 2021
+
+<details open>
+<summary>Toggle</summary>
 
 - [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/abs/2111.08550)
   - Hang Lai, Jian Shen, Weinan Zhang, Yimin Huang, Xing Zhang, Ruiming Tang, Yong Yu, Zhenguo Li
@@ -641,7 +707,12 @@ format:
   - OpenReview: 6, 6, 6, 6, 6
   - ExpEnv: [walker, quadruped, bins, kitchen](https://github.com/orybkin/lexa-benchmark)
 
+</details>
+
 ### ICLR 2021
+
+<details open>
+<summary>Toggle</summary>
 
 - [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/abs/2006.03647)
   - Tatsuya Matsushima, Hiroki Furuta, Yutaka Matsuo, Ofir Nachum, Shixiang Gu
@@ -697,8 +768,12 @@ format:
   - OpenReview: 7, 7, 7, 6, 5
   - ExpEnv: [acrobot system](https://github.com/openai/gym)
 
+</details>
 
 ### ICML 2021
+
+<details open>
+<summary>Toggle</summary>
 
 - [Conservative Objective Models for Effective Offline Model-Based Optimization](https://arxiv.org/abs/2107.06882)
   - Brandon Trabucco, Aviral Kumar, Xinyang Geng, Sergey Levine
@@ -750,6 +825,7 @@ format:
   - Key: learning theory, multi-agent, model-based self play, two-player zero-sum Markov games
   - ExpEnv: None
 
+</details>
 
 ### Other
 
@@ -758,11 +834,17 @@ format:
   - Key: DreamerV3, scaling property to world model
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [atari](https://github.com/openai/gym), [DMLab](https://github.com/deepmind/lab), [minecraft](https://github.com/minerllabs/minerl)
 
+<!-- - [Theoretically Guaranteed Policy Improvement Distilled from Model-Based Planning]()
+  - Chuming Li, Ruonan Jia, Jiawei Yao, Jie Liu, Yinmin Zhang, Yazhe Niu, Yaodong Yang, Yu Liu, Wanli Ouyang. *IJCAI Workshop 2023*
+  - Key: extended policy improvement, model regularization, planning theorem
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py) -->
+
 
 ## Contributing
+
 Our purpose is to make this repo even better. If you are interested in contributing, please refer to [HERE](CONTRIBUTING.md) for instructions in contribution.
 
 
-
 ## License
+
 Awesome Model-Based RL is released under the Apache 2.0 license.
