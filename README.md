@@ -13,7 +13,7 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2023.06.05] <b>New: We update the ICML 2023 paper list of model-based rl!</b></font>
+<font color="red">[2023.06.15] <b>New: We update the ICML 2023 paper list of model-based rl!</b></font>
 
 [2023.02.05] We update the ICLR 2023 paper list of model-based rl.
 
@@ -41,6 +41,7 @@ Welcome to follow and star!
   - [ICLR 2021](#iclr-2021)
   - [ICML 2021](#icml-2021)
   - [Other](#other)
+- [Tutorial](#tutorial)
 - [Contributing](#contributing)
 
 
@@ -178,7 +179,52 @@ format:
   - Key: policy-adapted model learning, weight design
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
-<!-- - [Model-based Offline Reinforcement Learning with Count-based Conservatism]()
+- [Predictable MDP Abstraction for Unsupervised Model-Based RL](https://arxiv.org/abs/2302.03921)
+  - Seohong Park, Sergey Levine
+  - Key: predictable MDP abstraction, tackle <i>model exploitation</i>
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [Investigating the Role of Model-Based Learning in Exploration and Transfer](https://arxiv.org/abs/2302.04009)
+  - Jacob C Walker, Eszter Vértes, Yazhe Li, Gabriel Dulac-Arnold, Ankesh Anand, Jessica Hamrick, Theophane Weber
+  - Key Insights: (1) Is there an advantage to an agent being model-based during unsupervised exploration and/or fine-tuning? (2) What are the contributions of each component of a model-based agent for downstream task learning? (3) How well does the model-based agent deal with environmental shift between the unsupervised and downstream phases?
+  - ExpEnv: [Crafter](https://github.com/danijar/crafter), [RoboDesk](https://github.com/google-research/robodesk), [Meta-World](https://github.com/Farama-Foundation/Metaworld)
+
+- [The Virtues of Laziness in Model-based RL: A Unified Objective and Algorithms](https://arxiv.org/abs/2303.00694)
+  - Anirudh Vemula, Yuda Song, Aarti Singh, J. Bagnell, Sanjiban Choudhury
+  - Key: objective mismatch, mbrl framework
+  - ExpEnv: [Helicopter, WideTree, Linear Dynamical System, Maze](https://github.com/vvanirudh/LAMPS-MBRL/tree/master), [mujoco](https://github.com/openai/mujoco-py)
+
+- [The Benefits of Model-Based Generalization in Reinforcement Learning](https://arxiv.org/abs/2211.02222)
+  - Kenny Young, Aditya Ramesh, Louis Kirsch, Jürgen Schmidhuber
+  - Key: experience replay, when and how learned model generalization
+  - ExpEnv: [ProcMaze, ButtonGrid, PanFlute](https://github.com/kenjyoung/Model_Generalization_Code_supplement/blob/main/environments.py)
+
+- [STEERING: Stein Information Directed Exploration for Model-Based Reinforcement Learning](https://arxiv.org/abs/2301.12038)
+  - Souradip Chakraborty, Amrit Bedi, Alec Koppel, Mengdi Wang, Furong Huang, Dinesh Manocha
+  - Key: information directed sampling, kernelized Stein discrepancy
+  - ExpEnv: [DeepSea](https://github.com/stratisMarkou/sample-efficient-bayesian-rl/blob/master/code/Environments.py)
+
+<!-- - [Model-Bellman Inconsistency for Model-based Offline Reinforcement Learning]()
+  - Yihao Sun, Jiaji Zhang, Chengxing Jia, Haoxin Lin, Junyin Ye, Yang Yu
+  - Key:
+  - ExpEnv:
+
+- [Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators]()
+  - Paavo Parmas, Takuma Seno, Yuma Aoki
+  - Key:
+  - ExpEnv:
+
+- [Curious Replay for Model-based Adaptation]()
+  - Isaac Kauvar, Chris Doyle, Linqi Zhou, Nick Haber
+  - Key:
+  - ExpEnv:
+
+- [Generative Pretraining for Offline Model-based Optimization]()
+  - Satvik Mashkaria, Siddarth Krishnamoorthy, Aditya Grover
+  - Key:
+  - ExpEnv:
+
+- [Model-based Offline Reinforcement Learning with Count-based Conservatism]()
   - Byeongchan Kim, Min-hwan Oh
   - Key:
   - ExpEnv:
@@ -834,10 +880,16 @@ format:
   - Key: DreamerV3, scaling property to world model
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [atari](https://github.com/openai/gym), [DMLab](https://github.com/deepmind/lab), [minecraft](https://github.com/minerllabs/minerl)
 
-<!-- - [Theoretically Guaranteed Policy Improvement Distilled from Model-Based Planning]()
+- [Theoretically Guaranteed Policy Improvement Distilled from Model-Based Planning](https://prl-theworkshop.github.io/prl2023-ijcai/)
   - Chuming Li, Ruonan Jia, Jiawei Yao, Jie Liu, Yinmin Zhang, Yazhe Niu, Yaodong Yang, Yu Liu, Wanli Ouyang. *IJCAI Workshop 2023*
   - Key: extended policy improvement, model regularization, planning theorem
-  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py) -->
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+
+## Tutorial
+
+- [Video] [Csaba Szepesvári - The challenges of model-based reinforcement learning and how to overcome them](https://www.youtube.com/watch?v=-Y-fHsPIQ_Q)
+- [Blog] [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
 
 
 ## Contributing
