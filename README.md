@@ -174,6 +174,11 @@ format:
   - Key: unsupervised pretrain, task-aware finetune, dyna-mpc
   - ExpEnv: [URLB benchmark](https://github.com/rll-research/url_benchmark), [RWRL suite](https://github.com/google-research/realworldrl_suite)
 
+- [Reparameterized Policy Learning for Multimodal Trajectory Optimization](https://openreview.net/forum?id=5Akrk9Ln6N)
+  - Zhiao Huang, Litian Liang, Zhan Ling, Xuanlin Li, Chuang Gan, Hao Su
+  - Key: multimodal policy learning, reparameterized policy gradient
+  - ExpEnv: [Meta-World](https://github.com/Farama-Foundation/Metaworld), [mujoco](https://github.com/openai/mujoco-py)
+
 - [Live in the Moment: Learning Dynamics Model Adapted to Evolving Policy](https://arxiv.org/abs/2207.12141)
   - Xiyao Wang, Wichayaporn Wongkamjan, Ruonan Jia, Furong Huang
   - Key: policy-adapted model learning, weight design
@@ -204,35 +209,40 @@ format:
   - Key: information directed sampling, kernelized Stein discrepancy
   - ExpEnv: [DeepSea](https://github.com/stratisMarkou/sample-efficient-bayesian-rl/blob/master/code/Environments.py)
 
-<!-- - [Model-Bellman Inconsistency for Model-based Offline Reinforcement Learning]()
-  - Yihao Sun, Jiaji Zhang, Chengxing Jia, Haoxin Lin, Junyin Ye, Yang Yu
-  - Key:
-  - ExpEnv:
-
-- [Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators]()
+- [Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators](https://openreview.net/forum?id=rDMAJECBM2)
   - Paavo Parmas, Takuma Seno, Yuma Aoki
-  - Key:
-  - ExpEnv:
+  - Key: extension of Dreamer, total propagation computation graph
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
 
-- [Curious Replay for Model-based Adaptation]()
+- [Reinforcement Learning with History Dependent Dynamic Contexts](https://openreview.net/forum?id=rdOuTlTUMX)
+  - Guy Tennenholtz, Nadav Merlis, Lior Shani, Martin Mladenov, Craig Boutilier
+  - Key: non-Markov context dynamics, logistic DCMDPs, theoretical analysis, extension of MuZero
+  - ExpEnv: [MovieLens dataset](https://www.tensorflow.org/datasets/catalog/movielens)
+
+- [Model-Bellman Inconsistency for Model-based Offline Reinforcement Learning](https://openreview.net/forum?id=rwLwGPdzDD)
+  - Yihao Sun, Jiaji Zhang, Chengxing Jia, Haoxin Lin, Junyin Ye, Yang Yu
+  - Key: pessimistic value estimation, theoretical analysis
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
+
+- [Curious Replay for Model-based Adaptation](https://openreview.net/forum?id=7p7YakZP2H)
   - Isaac Kauvar, Chris Doyle, Linqi Zhou, Nick Haber
-  - Key:
-  - ExpEnv:
+  - Key: extension of DreamerV3, curious replay, count-based replay, adversarial replay
+  - ExpEnv: [Crafter](https://github.com/danijar/crafter), [deepmind control suite](https://github.com/deepmind/dm_control)
 
-- [Generative Pretraining for Offline Model-based Optimization]()
-  - Satvik Mashkaria, Siddarth Krishnamoorthy, Aditya Grover
-  - Key:
-  - ExpEnv:
+- [On Many-Actions Policy Gradient](https://openreview.net/forum?id=HKfSTYLJh7)
+  - Michal Nauman, Marek Cygan
+  - Key: bias and variance, theoretical analysis
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
 
-- [Model-based Offline Reinforcement Learning with Count-based Conservatism]()
+- [Posterior Sampling for Deep Reinforcement Learning](https://openreview.net/forum?id=ZwjSECgl6p)
+  - Remo Sasso, Michelangelo Conserva, Paulo Rauber
+  - Key: posterior sampling, continual value network
+  - ExpEnv: [atari](https://github.com/openai/gym)
+
+- [Model-based Offline Reinforcement Learning with Count-based Conservatism](https://openreview.net/forum?id=T5VlejGx7f)
   - Byeongchan Kim, Min-hwan Oh
-  - Key:
-  - ExpEnv:
-
-- []()
-  - 
-  - Key:
-  - ExpEnv: -->
+  - Key: count estimation, theoretical analysis
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
 
 </details>
 
