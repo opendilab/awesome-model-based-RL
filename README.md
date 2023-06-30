@@ -224,6 +224,11 @@ format:
   - Key: pessimistic value estimation, theoretical analysis
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
 
+- [Simplified Temporal Consistency Reinforcement Learning](https://openreview.net/forum?id=IkhTCX9x5i)
+  - Yi Zhao, Wenshuai Zhao, Rinu Boney, Juho Kannala, Joni Pajarinen
+  - Key: representation learning, temporal consistency
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
+
 - [Curious Replay for Model-based Adaptation](https://openreview.net/forum?id=7p7YakZP2H)
   - Isaac Kauvar, Chris Doyle, Linqi Zhou, Nick Haber
   - Key: extension of DreamerV3, curious replay, count-based replay, adversarial replay
