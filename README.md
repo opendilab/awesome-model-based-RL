@@ -13,7 +13,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2023.06.15] <b>New: We update the ICML 2023 paper list of model-based rl!</b></font>
+<font color="red">[2023.09.29] <b>New: We update the NeurIPS 2023 paper list of model-based rl!</b></font>
+
+[2023.06.15] We update the ICML 2023 paper list of model-based rl!
 
 [2023.02.05] We update the ICLR 2023 paper list of model-based rl.
 
@@ -32,7 +34,8 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICML 2023](#icml-2023)(**<font color="red">New!!!</font>**)
+  - [NeurIPS 2023](#neurips-2023)(**<font color="red">New!!!</font>**)
+  - [ICML 2023](#icml-2023)
   - [ICLR 2023](#iclr-2023)
   - [NeurIPS 2022](#neurips-2022)
   - [ICML 2022](#icml-2022)
@@ -161,6 +164,23 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+</details>
+
+### NeurIPS 2023
+
+<details open>
+<summary>Toggle</summary>
+
+- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://github.com/opendilab/LightZero)
+  - Yazhe Niu, Yuan Pu, Zhenjie Yang, Xueyan Li, Tong Zhou, Jiyuan Ren, Shuai Hu, Hongsheng Li, Yu Liu
+  - Key: MCTS-style benchmark
+  - ExpEnv: [board games](https://github.com/opendilab/LightZero/tree/main/zoo/board_games), [atari](https://github.com/openai/gym), [mujoco](https://github.com/openai/mujoco-py), [gobigger](https://github.com/opendilab/GoBigger)
+
+- [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://arxiv.org/abs/2305.18459)
+  - Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
+  - Key: GPT-based diffusion model for planning and data synthesizing
+  - ExpEnv: [Meta-World](https://github.com/Farama-Foundation/Metaworld), [Maze2D](https://github.com/Farama-Foundation/D4RL/tree/master/d4rl)
 
 </details>
 
@@ -895,7 +915,7 @@ format:
   - Key: DreamerV3, scaling property to world model
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [atari](https://github.com/openai/gym), [DMLab](https://github.com/deepmind/lab), [minecraft](https://github.com/minerllabs/minerl)
 
-- [Theoretically Guaranteed Policy Improvement Distilled from Model-Based Planning](https://prl-theworkshop.github.io/prl2023-ijcai/)
+- [Theoretically Guaranteed Policy Improvement Distilled from Model-Based Planning](https://arxiv.org/abs/2307.12933)
   - Chuming Li, Ruonan Jia, Jiawei Yao, Jie Liu, Yinmin Zhang, Yazhe Niu, Yaodong Yang, Yu Liu, Wanli Ouyang. *IJCAI Workshop 2023*
   - Key: extended policy improvement, model regularization, planning theorem
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
