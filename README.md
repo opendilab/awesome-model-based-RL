@@ -172,7 +172,7 @@ format:
 <details open>
 <summary>Toggle</summary>
 
-- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://github.com/opendilab/LightZero)
+- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://arxiv.org/abs/2310.08348)
   - Yazhe Niu, Yuan Pu, Zhenjie Yang, Xueyan Li, Tong Zhou, Jiyuan Ren, Shuai Hu, Hongsheng Li, Yu Liu
   - Key: MCTS-style benchmark
   - ExpEnv: [board games](https://github.com/opendilab/LightZero/tree/main/zoo/board_games), [atari](https://github.com/openai/gym), [mujoco](https://github.com/openai/mujoco-py), [gobigger](https://github.com/opendilab/GoBigger)
@@ -181,6 +181,11 @@ format:
   - Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
   - Key: GPT-based diffusion model for planning and data synthesizing
   - ExpEnv: [Meta-World](https://github.com/Farama-Foundation/Metaworld), [Maze2D](https://github.com/Farama-Foundation/D4RL/tree/master/d4rl)
+
+- [MoVie: Visual Model-Based Policy Adaptation for View Generalization](https://arxiv.org/abs/2307.00972)
+  - Sizhe Yang, Yanjie Ze, Huazhe Xu
+  - Key: view generalization, spatial adaptive encoder
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [adroit](https://github.com/aravindr93/mjrl), [xArm](https://github.com/yangsizhe/MoVie/tree/main/src/envs/xarm_env)
 
 </details>
 
@@ -275,6 +280,12 @@ format:
 
 <details open>
 <summary>Toggle</summary>
+
+- [Transformers are Sample-Efficient World Models](https://openreview.net/forum?id=vhFu1Acb0xb)
+  - Vincent Micheli, Eloi Alonso, François Fleuret
+  - Key: discrete autoencoder, transformer based world model
+  - OpenReview: 8, 8, 8, 8
+  - ExpEnv: [atari](https://github.com/openai/gym)
 
 - [Conservative Bayesian Model-Based Value Expansion for Offline Policy Optimization](https://openreview.net/forum?id=dNqxZgyjcYA)
   - Jihwan Jeong, Xiaoyu Wang, Michael Gimelfarb, Hyunwoo Kim, Baher Abdulhai, Scott Sanner
