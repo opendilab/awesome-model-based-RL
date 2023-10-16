@@ -45,6 +45,7 @@ Welcome to follow and star!
   - [ICML 2021](#icml-2021)
   - [Other](#other)
 - [Tutorial](#tutorial)
+- [Codebase](#codebase)
 - [Contributing](#contributing)
 
 
@@ -186,6 +187,11 @@ format:
   - Sizhe Yang, Yanjie Ze, Huazhe Xu
   - Key: view generalization, spatial adaptive encoder
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [adroit](https://github.com/aravindr93/mjrl), [xArm](https://github.com/yangsizhe/MoVie/tree/main/src/envs/xarm_env)
+
+- [State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding](https://arxiv.org/abs/2309.12482)
+  - Devleena Das, Sonia Chernova, Been Kim
+  - Key: a joint embedding model between state-action pairs and concept-based explanations
+  - ExpEnv: [connect4](), [lunar lander](https://github.com/openai/gym)
 
 </details>
 
@@ -936,6 +942,12 @@ format:
 
 - [Video] [Csaba Szepesvári - The challenges of model-based reinforcement learning and how to overcome them](https://www.youtube.com/watch?v=-Y-fHsPIQ_Q)
 - [Blog] [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
+
+
+## Codebase
+
+- [mbrl-lib](https://github.com/facebookresearch/mbrl-lib) - Meta: Library for Model Based RL
+- [DI-engine](https://github.com/opendilab/DI-engine) - OpenDILab: Decision AI Engine
 
 
 ## Contributing
