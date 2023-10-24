@@ -540,6 +540,12 @@ format:
   - OpenReview: 6, 6, 5
   - ExpEnv: [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [deepmind lab](https://github.com/deepmind/lab), [crafter](https://github.com/danijar/crafter)
 
+- [Continuous MDP Homomorphisms and Homomorphic Policy Gradient](https://arxiv.org/abs/2209.07364)
+  - Sahand Rezaei-Shoshtari, Rosie Zhao, Prakash Panangaden, David Meger, Doina Precup
+  - Key: Homomorphic Policy Gradient, Continuous MDP Homomorphisms, Lax Bisimulation Loss
+  - OpenReview: 7, 7, 7
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
+
 </details>
 
 ### ICML 2022
