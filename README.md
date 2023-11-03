@@ -173,25 +173,55 @@ format:
 <details open>
 <summary>Toggle</summary>
 
-- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://arxiv.org/abs/2310.08348)
+- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://openreview.net/forum?id=oIUXpBnyjv)
   - Yazhe Niu, Yuan Pu, Zhenjie Yang, Xueyan Li, Tong Zhou, Jiyuan Ren, Shuai Hu, Hongsheng Li, Yu Liu
   - Key: MCTS-style benchmark
   - ExpEnv: [board games](https://github.com/opendilab/LightZero/tree/main/zoo/board_games), [atari](https://github.com/openai/gym), [mujoco](https://github.com/openai/mujoco-py), [gobigger](https://github.com/opendilab/GoBigger)
 
-- [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://arxiv.org/abs/2305.18459)
+- [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://openreview.net/forum?id=fAdMly4ki5)
   - Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
   - Key: GPT-based diffusion model for planning and data synthesizing
   - ExpEnv: [Meta-World](https://github.com/Farama-Foundation/Metaworld), [Maze2D](https://github.com/Farama-Foundation/D4RL/tree/master/d4rl)
 
-- [MoVie: Visual Model-Based Policy Adaptation for View Generalization](https://arxiv.org/abs/2307.00972)
+- [MoVie: Visual Model-Based Policy Adaptation for View Generalization](https://openreview.net/forum?id=YV1MYtj2AR)
   - Sizhe Yang, Yanjie Ze, Huazhe Xu
   - Key: view generalization, spatial adaptive encoder
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [adroit](https://github.com/aravindr93/mjrl), [xArm](https://github.com/yangsizhe/MoVie/tree/main/src/envs/xarm_env)
 
-- [State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding](https://arxiv.org/abs/2309.12482)
+- [Model-Based Reparameterization Policy Gradient Methods: Theory and Practical Algorithms](https://openreview.net/forum?id=bUgqyyNo8j)
+  - Shenao Zhang, Boyi Liu, Zhaoran Wang, Tuo Zhao
+  - Key: model-based reparameterization policy gradient method, smoothness regularization
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning](https://openreview.net/forum?id=zDbsSscmuj)
+  - Lin Guan, Karthik Valmeekam, Sarath Sreedharan, Subbarao Kambhampati
+  - Key: construct an explicit world (domain) model in planning domain definition language
+  - ExpEnv: [household-robot domain](), [tyreworld and logistics]()
+
+- [RePo: Resilient Model-Based Reinforcement Learning by Regularizing Posterior Predictability](https://openreview.net/forum?id=OIJ3VXDy6s)
+  - Chuning Zhu, Max Simchowitz, Siri Gadipudi, Abhishek Gupta
+  - Key: representation resilience for visual RL
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [maniskill](https://github.com/haosulab/ManiSkill2)
+
+- [Model-Based Control with Sparse Neural Dynamics](https://openreview.net/forum?id=ymBG2xs9Zf)
+  - Ziang Liu, Jeff He, Genggeng Zhou, Tobia Marcucci, Fei-Fei Li, Jiajun Wu, Yunzhu Li
+  - Key: network sparsification, mixed-integer formulation of ReLU neural dynamics
+  - ExpEnv: [gym, cartpole, reacher](https://github.com/openai/gym)
+
+- [Optimal Exploration for Model-Based RL in Nonlinear Systems](https://openreview.net/forum?id=pJQu0zpKCS)
+  - Andrew Wagenmaker, Guanya Shi, Kevin Jamieson
+  - Key: optimal sample complexity for nonlinear dynamical systems
+  - ExpEnv: [affine dynamics system](https://github.com/ajwagen/nonlinear_sysid_for_control/blob/main/environments.py)
+
+- [State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding](https://openreview.net/forum?id=xGz0wAIJrS)
   - Devleena Das, Sonia Chernova, Been Kim
   - Key: a joint embedding model between state-action pairs and concept-based explanations
   - ExpEnv: [connect4](), [lunar lander](https://github.com/openai/gym)
+
+- [Efficient Exploration in Continuous-time Model-based Reinforcement Learning](https://openreview.net/forum?id=VkhvDfY2dB)
+  - Lenart Treven, Jonas Hübotter, Bhavya, Florian Dorfler, Andreas Krause
+  - Key: nonlinear ordinary differential equations, regret bound, measurement selection strategies
+  - ExpEnv: [system’s tasks]()
 
 </details>
 
