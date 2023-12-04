@@ -13,7 +13,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2023.09.29] <b>New: We update the NeurIPS 2023 paper list of model-based rl!</b></font>
+<font color="red">[2023.11.29] <b>New: We update the ICLR 2024 submissions of model-based rl!</b></font>
+
+[2023.09.29] We update the NeurIPS 2023 paper list of model-based rl.
 
 [2023.06.15] We update the ICML 2023 paper list of model-based rl!
 
@@ -34,7 +36,8 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [NeurIPS 2023](#neurips-2023)(**<font color="red">New!!!</font>**)
+  - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**)
+  - [NeurIPS 2023](#neurips-2023)
   - [ICML 2023](#icml-2023)
   - [ICLR 2023](#iclr-2023)
   - [NeurIPS 2022](#neurips-2022)
@@ -168,30 +171,139 @@ format:
 
 </details>
 
+### ICLR 2024
+
+<details open>
+<summary>Toggle</summary>
+
+- [TD-MPC2: Scalable, Robust World Models for Continuous Control](https://openreview.net/forum?id=Oxh5CstDJU)
+  <!-- -  -->
+  - Key: implicit world model, model predictive control, generalist td-mpc2
+  - OpenReview: 8, 8, 8, 8
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/Farama-Foundation/Metaworld), [maniskill2](https://github.com/haosulab/ManiSkill2), [myosuite](https://github.com/MyoHub/myosuite)
+
+- [Robust Model Based Reinforcement Learning Using L1 Adaptive Control](https://openreview.net/forum?id=GaLCLvJaoF)
+  <!-- -  -->
+  - Key: L1 Adaptive Control
+  - OpenReview: 8, 6, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [Mastering Memory Tasks with World Models](https://openreview.net/forum?id=1vDArHJ68h)
+  <!-- -  -->
+  - Key: recall to imagine module, based on DreamerV3
+  - OpenReview: 10, 8, 6
+  - ExpEnv: [bsuite](https://github.com/google-deepmind/bsuite), [popgym](https://github.com/proroklab/popgym), [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [memory maze](https://github.com/jurgisp/memory-maze)
+
+- [Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics](https://openreview.net/forum?id=TjCDNssXKU)
+  <!-- -  -->
+  - Key: Context-specific Recurrent State Space Model, hierarchical world model
+  - OpenReview: 8, 6, 6
+  - ExpEnv: [MiniHack](https://github.com/facebookresearch/minihack), [VisualPinPad](https://github.com/danijar/director/blob/main/embodied/envs/pinpad.py), [MultiWorld](https://github.com/vitchyr/multiworld)
+
+- [COPlanner: Plan to Roll Out Conservatively but to Explore Optimistically for Model-Based RL](https://openreview.net/forum?id=jnFcKjtUPN)
+  <!-- -  -->
+  - Key: conservative model rollouts, optimistic environment exploration
+  - OpenReview: 6, 6, 6
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [Efficient Multi-agent Reinforcement Learning by Planning](https://openreview.net/forum?id=CpnKq3UJwp)
+  <!-- -  -->
+  - Key: mcts, optimistic search lambda, advantage-weighted policy optimization
+  - OpenReview: 8, 6, 6, 6
+  - ExpEnv: [smac](https://github.com/oxwhirl/smac)
+
+- [Differentiable Trajectory Optimization as a Policy Class for Reinforcement and Imitation Learning](https://openreview.net/forum?id=HL5P4H8eO2)
+  <!-- -  -->
+  - Key: differentiable trajectory optimization
+  - OpenReview: 10, 8, 8, 5
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [robomimic](https://github.com/ARISE-Initiative/robomimic), [maniskill](https://github.com/haosulab/ManiSkill2)
+
+- [DMBP: Diffusion model based predictor for robust offline reinforcement learning against state observation perturbations](https://openreview.net/forum?id=ZULjcYLWKe)
+  <!-- -  -->
+  - Key: conditional diffusion, offline RL
+  - OpenReview: 8, 8, 6, 6
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
+
+- [MAMBA: an Effective World Model Approach for Meta-Reinforcement Learning](https://openreview.net/forum?id=1RE0H6mU7M)
+  <!-- -  -->
+  - Key: context-based meta-RL, based on dreamer
+  - OpenReview: 6, 6, 6, 6
+  - ExpEnv: [Point Robot Navigation, Escape Room](https://github.com/Rondorf/BOReL/blob/main/environments/toy_navigation/point_robot.py), [Reacher Sparse](https://github.com/deepmind/dm_control)
+
+- [Reward-Consistent Dynamics Models are Strongly Generalizable for Offline Reinforcement Learning](https://openreview.net/forum?id=GSBHKiw19c)
+  <!-- -  -->
+  - Key: reward learning, offline RL
+  - OpenReview: 8, 6, 6, 6
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
+
+- [DreamSmooth: Improving Model-based Reinforcement Learning via Reward Smoothing](https://openreview.net/forum?id=GruDNzQ4ux)
+  <!-- -  -->
+  - Key: learn to predict a temporally-smoothed reward rather than the exact reward at each timestep
+  - OpenReview: 6, 6, 6, 5
+  - ExpEnv: [robodesk](https://github.com/google-research/robodesk), [hand](https://github.com/openai/gym), [earthmoving](https://www.algoryx.se/agx-dynamics/)
+
+- [Informed POMDP: Leveraging Additional Information in Model-Based RL](https://openreview.net/forum?id=5NJzNAXAmx)
+  <!-- -  -->
+  - Key: informed world model, based on DreamerV3
+  - OpenReview: 6, 6, 6, 5
+  - ExpEnv: [varying mountain hike](https://github.com/maximilianigl/DVRL/tree/master), [deepmind control suite](https://github.com/deepmind/dm_control), [pop gym](https://github.com/proroklab/popgym), [flickering atari and flickering control](https://github.com/openai/gym)
+
+</details>
+
 ### NeurIPS 2023
 
 <details open>
 <summary>Toggle</summary>
 
-- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://arxiv.org/abs/2310.08348)
+- [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://openreview.net/forum?id=oIUXpBnyjv)
   - Yazhe Niu, Yuan Pu, Zhenjie Yang, Xueyan Li, Tong Zhou, Jiyuan Ren, Shuai Hu, Hongsheng Li, Yu Liu
   - Key: MCTS-style benchmark
   - ExpEnv: [board games](https://github.com/opendilab/LightZero/tree/main/zoo/board_games), [atari](https://github.com/openai/gym), [mujoco](https://github.com/openai/mujoco-py), [gobigger](https://github.com/opendilab/GoBigger)
 
-- [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://arxiv.org/abs/2305.18459)
+- [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://openreview.net/forum?id=fAdMly4ki5)
   - Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
   - Key: GPT-based diffusion model for planning and data synthesizing
   - ExpEnv: [Meta-World](https://github.com/Farama-Foundation/Metaworld), [Maze2D](https://github.com/Farama-Foundation/D4RL/tree/master/d4rl)
 
-- [MoVie: Visual Model-Based Policy Adaptation for View Generalization](https://arxiv.org/abs/2307.00972)
+- [MoVie: Visual Model-Based Policy Adaptation for View Generalization](https://openreview.net/forum?id=YV1MYtj2AR)
   - Sizhe Yang, Yanjie Ze, Huazhe Xu
   - Key: view generalization, spatial adaptive encoder
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [adroit](https://github.com/aravindr93/mjrl), [xArm](https://github.com/yangsizhe/MoVie/tree/main/src/envs/xarm_env)
 
-- [State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding](https://arxiv.org/abs/2309.12482)
+- [Model-Based Reparameterization Policy Gradient Methods: Theory and Practical Algorithms](https://openreview.net/forum?id=bUgqyyNo8j)
+  - Shenao Zhang, Boyi Liu, Zhaoran Wang, Tuo Zhao
+  - Key: model-based reparameterization policy gradient method, smoothness regularization
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+- [Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning](https://openreview.net/forum?id=zDbsSscmuj)
+  - Lin Guan, Karthik Valmeekam, Sarath Sreedharan, Subbarao Kambhampati
+  - Key: construct an explicit world (domain) model in planning domain definition language
+  - ExpEnv: [household-robot domain](), [tyreworld and logistics]()
+
+- [RePo: Resilient Model-Based Reinforcement Learning by Regularizing Posterior Predictability](https://openreview.net/forum?id=OIJ3VXDy6s)
+  - Chuning Zhu, Max Simchowitz, Siri Gadipudi, Abhishek Gupta
+  - Key: representation resilience for visual RL
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [maniskill](https://github.com/haosulab/ManiSkill2)
+
+- [Model-Based Control with Sparse Neural Dynamics](https://openreview.net/forum?id=ymBG2xs9Zf)
+  - Ziang Liu, Jeff He, Genggeng Zhou, Tobia Marcucci, Fei-Fei Li, Jiajun Wu, Yunzhu Li
+  - Key: network sparsification, mixed-integer formulation of ReLU neural dynamics
+  - ExpEnv: [gym, cartpole, reacher](https://github.com/openai/gym)
+
+- [Optimal Exploration for Model-Based RL in Nonlinear Systems](https://openreview.net/forum?id=pJQu0zpKCS)
+  - Andrew Wagenmaker, Guanya Shi, Kevin Jamieson
+  - Key: optimal sample complexity for nonlinear dynamical systems
+  - ExpEnv: [affine dynamics system](https://github.com/ajwagen/nonlinear_sysid_for_control/blob/main/environments.py)
+
+- [State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding](https://openreview.net/forum?id=xGz0wAIJrS)
   - Devleena Das, Sonia Chernova, Been Kim
   - Key: a joint embedding model between state-action pairs and concept-based explanations
   - ExpEnv: [connect4](), [lunar lander](https://github.com/openai/gym)
+
+- [Efficient Exploration in Continuous-time Model-based Reinforcement Learning](https://openreview.net/forum?id=VkhvDfY2dB)
+  - Lenart Treven, Jonas Hübotter, Bhavya, Florian Dorfler, Andreas Krause
+  - Key: nonlinear ordinary differential equations, regret bound, measurement selection strategies
+  - ExpEnv: [system’s tasks]()
 
 </details>
 
@@ -964,3 +1076,5 @@ Our purpose is to make this repo even better. If you are interested in contribut
 ## License
 
 Awesome Model-Based RL is released under the Apache 2.0 license.
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
