@@ -305,6 +305,11 @@ format:
   - Key: nonlinear ordinary differential equations, regret bound, measurement selection strategies
   - ExpEnv: [system’s tasks]()
 
+- [Action Inference by Maximising Evidence: Zero-Shot Imitation from Observation with World Models](https://openreview.net/forum?id=WjlCQxpuxU)
+  - Xingyuan Zhang, Philip Becker-Ehmck, Patrick van der Smagt, Maximilian Karl
+  - Key: pretrained world models, imitation learning from observation only
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
+
 </details>
 
 ### ICML 2023
