@@ -1050,6 +1050,11 @@ format:
 
 ### Other
 
+- [Sample-Efficient Learning to Solve a Real-World Labyrinth Game Using Data-Augmented Model-Based Reinforcement Learning](https://arxiv.org/abs/2312.09906)
+  - Thomas Bi, Raffaello D'Andrea. *Arxiv 2023*
+  - Key: Data-Augmented,  DreamerV3
+  - ExpEnv: [Real-World Labyrinth Game]()
+
 - [Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104)
   - Danijar Hafner, Jurgis Pasukonis, Jimmy Ba, Timothy Lillicrap. *Arxiv 2023*
   - Key: DreamerV3, scaling property to world model
