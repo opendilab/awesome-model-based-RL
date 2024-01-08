@@ -17,7 +17,7 @@ Welcome to follow and star!
 
 [2023.09.29] We update the NeurIPS 2023 paper list of model-based rl.
 
-[2023.06.15] We update the ICML 2023 paper list of model-based rl!
+[2023.06.15] We update the ICML 2023 paper list of model-based rl.
 
 [2023.02.05] We update the ICLR 2023 paper list of model-based rl.
 
@@ -309,6 +309,11 @@ format:
   - Xingyuan Zhang, Philip Becker-Ehmck, Patrick van der Smagt, Maximilian Karl
   - Key: pretrained world models, imitation learning from observation only
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [STORM: Efficient Stochastic Transformer based World Models for Reinforcement Learning](https://openreview.net/forum?id=WxnrX42rnS)
+  - Weipu Zhang, Gang Wang, Jian Sun, Yetian Yuan, Gao Huang
+  - Key: categorical-VAE, transformer structure, DreamerV3
+  - ExpEnv: [atari](https://github.com/openai/gym)
 
 </details>
 
