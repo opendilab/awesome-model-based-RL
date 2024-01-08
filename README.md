@@ -1055,6 +1055,16 @@ format:
 
 ### Other
 
+- [World Models via Policy-Guided Trajectory Diffusion](https://arxiv.org/abs/2312.08533)
+  - Marc Rigter, Jun Yamada, Ingmar Posner *Arxiv 2023*
+  - Key: Diffusion model, world model
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [gridworld](https://github.com/dennybritz/reinforcement-learning/blob/master/lib/envs/gridworld.py)
+
+- [Model-Based Epistemic Variance of Values for Risk-Aware Policy Optimization](https://arxiv.org/abs/2312.04386)
+  - Carlos E. Luis, Alessandro G. Bottero, Julia Vinogradska, Felix Berkenkamp, Jan Peters *Arxiv 2023*
+  - Key: cumulative rewards uncertainty estimation in MBRL
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
 - [Sample-Efficient Learning to Solve a Real-World Labyrinth Game Using Data-Augmented Model-Based Reinforcement Learning](https://arxiv.org/abs/2312.09906)
   - Thomas Bi, Raffaello D'Andrea. *Arxiv 2023*
   - Key: Data-Augmented,  DreamerV3
