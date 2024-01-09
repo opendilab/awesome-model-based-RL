@@ -176,6 +176,12 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Privileged Sensing Scaffolds Reinforcement Learning](https://openreview.net/forum?id=EpVe8jAjdx)
+  <!-- -  -->
+  - Key: privileged information, based on DreamerV3
+  - OpenReview: 10, 8, 8, 8
+  - ExpEnv: [gymnasium robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics)
+  
 - [TD-MPC2: Scalable, Robust World Models for Continuous Control](https://openreview.net/forum?id=Oxh5CstDJU)
   <!-- -  -->
   - Key: implicit world model, model predictive control, generalist td-mpc2
