@@ -176,6 +176,12 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/abs/2311.01017)
+  - Lunjun Zhang, Yuwen Xiong, Ze Yang, Sergio Casas, Rui Hu, Raquel Urtasun
+  - Key: discrete diffusion; world model; autonomous driving
+  - OpenReview: 6, 6, 6, 8, 10
+  - ExpEnv: [NuScenes](https://www.nuscenes.org/), [KITTI Odometry](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), [Argoverse2 Lidar](https://www.argoverse.org/av2.html)
+
 - [Privileged Sensing Scaffolds Reinforcement Learning](https://openreview.net/forum?id=EpVe8jAjdx)
   <!-- -  -->
   - Key: privileged information, based on DreamerV3
