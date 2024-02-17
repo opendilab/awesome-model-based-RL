@@ -176,86 +176,86 @@ format:
 <details open>
 <summary>Toggle</summary>
 
-- [Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/abs/2311.01017)
-  - Lunjun Zhang, Yuwen Xiong, Ze Yang, Sergio Casas, Rui Hu, Raquel Urtasun
-  - Key: discrete diffusion; world model; autonomous driving
-  - OpenReview: 6, 6, 6, 8, 10
-  - ExpEnv: [NuScenes](https://www.nuscenes.org/), [KITTI Odometry](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), [Argoverse2 Lidar](https://www.argoverse.org/av2.html)
+- [Mastering Memory Tasks with World Models](https://openreview.net/forum?id=1vDArHJ68h)
+  - Mohammad Reza Samsami, Artem Zholus, Janarthanan Rajendran, Sarath Chandar
+  - Key: recall to imagine module, based on DreamerV3
+  - OpenReview: 10, 8, 6
+  - ExpEnv: [bsuite](https://github.com/google-deepmind/bsuite), [popgym](https://github.com/proroklab/popgym), [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [memory maze](https://github.com/jurgisp/memory-maze)
 
 - [Privileged Sensing Scaffolds Reinforcement Learning](https://openreview.net/forum?id=EpVe8jAjdx)
-  <!-- -  -->
+  - Edward S. Hu, James Springer, Oleh Rybkin, Dinesh Jayaraman
   - Key: privileged information, based on DreamerV3
   - OpenReview: 10, 8, 8, 8
   - ExpEnv: [gymnasium robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics)
   
 - [TD-MPC2: Scalable, Robust World Models for Continuous Control](https://openreview.net/forum?id=Oxh5CstDJU)
-  <!-- -  -->
+  - Nicklas Hansen, Hao Su, Xiaolong Wang
   - Key: implicit world model, model predictive control, generalist td-mpc2
   - OpenReview: 8, 8, 8, 8
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/Farama-Foundation/Metaworld), [maniskill2](https://github.com/haosulab/ManiSkill2), [myosuite](https://github.com/MyoHub/myosuite)
 
 - [Robust Model Based Reinforcement Learning Using L1 Adaptive Control](https://openreview.net/forum?id=GaLCLvJaoF)
-  <!-- -  -->
+  - Minjun Sung, Sambhu Harimanas Karumanchi, Aditya Gahlawat, Naira Hovakimyan
   - Key: L1 Adaptive Control
   - OpenReview: 8, 6, 6, 6
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
-- [Mastering Memory Tasks with World Models](https://openreview.net/forum?id=1vDArHJ68h)
-  <!-- -  -->
-  - Key: recall to imagine module, based on DreamerV3
-  - OpenReview: 10, 8, 6
-  - ExpEnv: [bsuite](https://github.com/google-deepmind/bsuite), [popgym](https://github.com/proroklab/popgym), [atari](https://github.com/openai/gym), [deepmind control suite](https://github.com/deepmind/dm_control), [memory maze](https://github.com/jurgisp/memory-maze)
-
 - [Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics](https://openreview.net/forum?id=TjCDNssXKU)
-  <!-- -  -->
+  - Christian Gumbsch, Noor Sajid, Georg Martius, Martin V. Butz
   - Key: Context-specific Recurrent State Space Model, hierarchical world model
   - OpenReview: 8, 6, 6
   - ExpEnv: [MiniHack](https://github.com/facebookresearch/minihack), [VisualPinPad](https://github.com/danijar/director/blob/main/embodied/envs/pinpad.py), [MultiWorld](https://github.com/vitchyr/multiworld)
 
+- [Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/abs/2311.01017)
+  - Lunjun Zhang, Yuwen Xiong, Ze Yang, Sergio Casas, Rui Hu, Raquel Urtasun
+  - Key: discrete diffusion; world model; autonomous driving
+  - OpenReview: 10, 8, 6, 6, 6
+  - ExpEnv: [NuScenes](https://www.nuscenes.org/), [KITTI Odometry](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), [Argoverse2 Lidar](https://www.argoverse.org/av2.html)
+
 - [COPlanner: Plan to Roll Out Conservatively but to Explore Optimistically for Model-Based RL](https://openreview.net/forum?id=jnFcKjtUPN)
-  <!-- -  -->
+  - Xiyao Wang, Ruijie Zheng, Yanchao Sun, Ruonan Jia, Wichayaporn Wongkamjan, Huazhe Xu, Furong Huang
   - Key: conservative model rollouts, optimistic environment exploration
   - OpenReview: 6, 6, 6
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [deepmind control suite](https://github.com/deepmind/dm_control)
 
 - [Efficient Multi-agent Reinforcement Learning by Planning](https://openreview.net/forum?id=CpnKq3UJwp)
-  <!-- -  -->
+  - Qihan Liu, Jianing Ye, Xiaoteng Ma, Jun Yang, Bin Liang, Chongjie Zhang
   - Key: mcts, optimistic search lambda, advantage-weighted policy optimization
   - OpenReview: 8, 6, 6, 6
   - ExpEnv: [smac](https://github.com/oxwhirl/smac)
 
 - [Differentiable Trajectory Optimization as a Policy Class for Reinforcement and Imitation Learning](https://openreview.net/forum?id=HL5P4H8eO2)
-  <!-- -  -->
+  - Weikang Wan, Yufei Wang, Zackory Erickson, David Held
   - Key: differentiable trajectory optimization
   - OpenReview: 10, 8, 8, 5
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [robomimic](https://github.com/ARISE-Initiative/robomimic), [maniskill](https://github.com/haosulab/ManiSkill2)
 
 - [DMBP: Diffusion model based predictor for robust offline reinforcement learning against state observation perturbations](https://openreview.net/forum?id=ZULjcYLWKe)
-  <!-- -  -->
+  - Zhihe YANG, Yunjian Xu
   - Key: conditional diffusion, offline RL
   - OpenReview: 8, 8, 6, 6
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
 
 - [MAMBA: an Effective World Model Approach for Meta-Reinforcement Learning](https://openreview.net/forum?id=1RE0H6mU7M)
-  <!-- -  -->
+  - Zohar Rimon, Tom Jurgenson, Orr Krupnik, Gilad Adler, Aviv Tamar
   - Key: context-based meta-RL, based on dreamer
   - OpenReview: 6, 6, 6, 6
   - ExpEnv: [Point Robot Navigation, Escape Room](https://github.com/Rondorf/BOReL/blob/main/environments/toy_navigation/point_robot.py), [Reacher Sparse](https://github.com/deepmind/dm_control)
 
 - [Reward-Consistent Dynamics Models are Strongly Generalizable for Offline Reinforcement Learning](https://openreview.net/forum?id=GSBHKiw19c)
-  <!-- -  -->
+  - Fan-Ming Luo, Tian Xu, Xingchen Cao, Yang Yu
   - Key: reward learning, offline RL
   - OpenReview: 8, 6, 6, 6
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
 
 - [DreamSmooth: Improving Model-based Reinforcement Learning via Reward Smoothing](https://openreview.net/forum?id=GruDNzQ4ux)
-  <!-- -  -->
+  - Vint Lee, Pieter Abbeel, Youngwoon Lee
   - Key: learn to predict a temporally-smoothed reward rather than the exact reward at each timestep
   - OpenReview: 6, 6, 6, 5
   - ExpEnv: [robodesk](https://github.com/google-research/robodesk), [hand](https://github.com/openai/gym), [earthmoving](https://www.algoryx.se/agx-dynamics/)
 
 - [Informed POMDP: Leveraging Additional Information in Model-Based RL](https://openreview.net/forum?id=5NJzNAXAmx)
-  <!-- -  -->
+  - Gaspard Lambrechts, Adrien Bolland, Damien Ernst
   - Key: informed world model, based on DreamerV3
   - OpenReview: 6, 6, 6, 5
   - ExpEnv: [varying mountain hike](https://github.com/maximilianigl/DVRL/tree/master), [deepmind control suite](https://github.com/deepmind/dm_control), [pop gym](https://github.com/proroklab/popgym), [flickering atari and flickering control](https://github.com/openai/gym)
