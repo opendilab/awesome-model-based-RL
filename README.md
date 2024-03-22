@@ -182,16 +182,16 @@ format:
   - OpenReview: 8, 8, 8, 6
   - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
 
-- [Efficient Dynamics Modeling in Interactive Environments with Koopman Theory](https://link.zhihu.com/?target=https%3A//openreview.net/forum%3Fid%3DfkrYDQaHOJ)
+- [Efficient Dynamics Modeling in Interactive Environments with Koopman Theory](https://openreview.net/forum?id=fkrYDQaHOJ)
   - Arnab Kumar Mondal, Siba Smarak Panigrahi, Sai Rajeswar, Kaleem Siddiqi, Siamak Ravanbakhsh
   - Key: Koopman Theory, Reinforcement Learning, Dynamical System, Planning, Longe range dynamics prediction models, Efficient forward dynamics
-  - OpenReview: 3, 6, 5, 8
+  - OpenReview: 8, 6, 5, 3
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
 - [Combining Spatial and Temporal Abstraction in Planning for Better Generalization](https://openreview.net/forum?id=eo9dHwtTFt)
   - Mingde Zhao, Safa Alver, Harm van Seijen, Romain Laroche, Doina Precup, Yoshua Bengio
   - Key: Reinforcement Learning, Planning, Neural Networks, Temporal Difference Learning, Generalization, Deep Reinforcement Learning
-  - OpenReview: 6, 5, 6, 6
+  - OpenReview: 6, 6, 6, 5
   - ExpEnv: [MiniGrid-BabyAI framework](https://github.com/maximecb/gym-minigrid)
 
 - [Mastering Memory Tasks with World Models](https://openreview.net/forum?id=1vDArHJ68h)
