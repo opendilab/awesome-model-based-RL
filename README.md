@@ -861,6 +861,12 @@ format:
   - OpenReview: 8, 6, 6
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py), [pybullet](https://github.com/benelot/pybullet-gym)
 
+- [COMBO: Conservative Offline Model-Based Policy Optimization](https://openreview.net/pdf?id=dUEpGV2mhf)
+  - Tianhe Yu, Aviral Kumar, Rafael Rafailov, Aravind Rajeswaran, Sergey Levine, Chelsea Finn
+  - Key: offline reinforcement learning, model-based reinforcement learning, deep reinforcement learning
+  - OpenReview: 6, 7, 6, 8
+  - ExpEnv: [d4rl dataset](https://github.com/rail-berkeley/d4rl)
+
 - [Safe Reinforcement Learning by Imagining the Near Future](https://arxiv.org/abs/2202.07789)
   - Garrett Thomas, Yuping Luo, Tengyu Ma
   - Key: safe rl, reward penalty, theory about model-based rollouts
@@ -1084,6 +1090,11 @@ format:
 </details>
 
 ### Other
+
+- [Masked Trajectory Models for Prediction, Representation, and Control](https://openreview.net/pdf?id=tT3LUdmzbd)
+  - Philipp Wu, Arjun Majumdar, Kevin Stone, Yixin Lin, Igor Mordatch, Pieter Abbeel, Aravind Rajeswaran *ICLR 2023 Workshop RRL*
+  - Key: offline RL, learning for control, sequence modeling
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl)
 
 - [World Models via Policy-Guided Trajectory Diffusion](https://arxiv.org/abs/2312.08533)
   - Marc Rigter, Jun Yamada, Ingmar Posner *Arxiv 2023*
