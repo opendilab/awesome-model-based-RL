@@ -285,6 +285,21 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Facing Off World Model Backbones: RNNs, Transformers, and S4](https://proceedings.neurips.cc/paper_files/paper/2023/file/e6c65eb9b56719c1aa45ff73874de317-Paper-Conference.pdf)
+  - Fei Deng, Junyeong Park, Sungjin Ahn
+  - Key: world model backbones
+  - ExpEnv: [MiniGrid](https://github.com/maximecb/gym-minigrid), [memory maze](https://github.com/jurgisp/memory-maze)
+
+- [Pre-training Contextualized World Models with In-the-wild Videos for Reinforcement Learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/7ce1cbededb4b0d6202847ac1b484ee8-Paper-Conference.pdf)
+  - Jialong Wu, Haoyu Ma, Chaoyi Deng, Mingsheng Long
+  - Key: Contextualized World Models
+  - ExpEnv: [CARLA](https://github.com/wayveai/mile/tree/main/carla_gym), [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [Conformal Prediction for Uncertainty-Aware Planning with Diffusion Dynamics Model](https://proceedings.neurips.cc/paper_files/paper/2023/file/fe318a2b6c699808019a456b706cd845-Paper-Conference.pdf)
+  - Jiankai Sun, Yiqi Jiang, Jianing Qiu, Parth Nobel, Mykel J Kochenderfer, Mac Schwager
+  - Key: Diffusion Dynamics Model
+  - ExpEnv: [d4rl](https://github.com/rail-berkeley/d4rl), [Maze2D](https://github.com/Farama-Foundation/D4RL/tree/master/d4rl)
+
 - [LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios](https://openreview.net/forum?id=oIUXpBnyjv)
   - Yazhe Niu, Yuan Pu, Zhenjie Yang, Xueyan Li, Tong Zhou, Jiyuan Ren, Shuai Hu, Hongsheng Li, Yu Liu
   - Key: MCTS-style benchmark
