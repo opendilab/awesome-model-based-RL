@@ -13,7 +13,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2023.11.29] <b>New: We update the ICLR 2024 submissions of model-based rl!</b></font>
+<font color="red">[2024.05.20] <b>New: We update the ICML 2024 submissions of model-based rl!</b></font>
+
+[2023.11.29] We update the ICLR 2024 submissions of model-based rl.
 
 [2023.09.29] We update the NeurIPS 2023 paper list of model-based rl.
 
@@ -36,7 +38,8 @@ Welcome to follow and star!
 - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
 - [Papers](#papers)
   - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**)
+  - [ICML 2024](#icml-2024)(**<font color="red">New!!!</font>**)
+  - [ICLR 2024](#iclr-2024)
   - [NeurIPS 2023](#neurips-2023)
   - [ICML 2023](#icml-2023)
   - [ICLR 2023](#iclr-2023)
@@ -168,6 +171,88 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+</details>
+
+### ICML 2024
+
+<details open>
+<summary>Toggle</summary>
+
+- [HarmonyDream: Task Harmonization Inside World Models](https://arxiv.org/abs/2310.00344)
+  - Haoyu Ma, Jialong Wu, Ningya Feng, Chenjun Xiao, Dong Li, Jianye Hao, Jianmin Wang, Mingsheng Long
+  - Key: observation modeling and reward modeling analysis in world models
+  - ExpEnv: [meta-world](https://github.com/Farama-Foundation/Metaworld), [rlbench](https://github.com/stepjam/RLBench), [deepmind control suite](https://github.com/deepmind/dm_control), [atari 100k](https://github.com/openai/gym)
+
+- [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://arxiv.org/abs/2403.09631)
+  - Haoyu Zhen, Xiaowen Qiu, Peihao Chen, Jincheng Yang, Xin Yan, Yilun Du, Yining Hong, Chuang Gan
+  - Key: unify 3D perception, reasoning, and action with a generative world model; create a large-scale 3D embodied instruction tuning dataset
+  - ExpEnv: [rlbench](https://github.com/stepjam/RLBench), [calvin](https://github.com/mees/calvin)
+
+- [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)
+  - Qinlin Zhao, Jindong Wang, Yixuan Zhang, Yiqiao Jin, Kaijie Zhu, Hao Chen, Xing Xie
+  - Key: propose a competitive framework for LLM-based agents; build a simulated competitive environment
+  - ExpEnv: a virtual town with only restaurants and customers
+
+- [Model-based Reinforcement Learning for Parameterized Action Spaces](https://arxiv.org/abs/2404.03037)
+  - Renhao Zhang, Haotian Fu, Yilin Miao, George Konidaris
+  - Key: discrete-continuous hybrid action space, dynamics model with parameterized actions, MPC with parameterized actions
+  - ExpEnv: [platform, goal, hard goal, catch point, hard move](https://github.com/Valarzz/Model-based-Reinforcement-Learning-for-Parameterized-Action-Spaces/tree/main/common)
+
+- [Learning Latent Dynamic Robust Representations for World Models](https://arxiv.org/abs/2405.06263)
+  - Ruixiang Sun, Hongyu Zang, Xin Li, Riashat Islam
+  - Key: modified Dreamer architecture, hybrid-recurrent state space model
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [distracted deepmind control suite](https://github.com/bit1029public/HRSSM/tree/main/env), [mani-skill2](https://github.com/haosulab/ManiSkill2)
+
+- [AD3: Implicit Action is the Key for World Models to Distinguish the Diverse Visual Distractors](https://arxiv.org/abs/2403.09976)
+  - Yucen Wang, Shenghua Wan, Le Gan, Shuai Feng, De-Chuan Zhan
+  - Key: implicit action generator, action-conditioned separated world models
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control)
+
+- [Hieros: Hierarchical Imagination on Structured State Space Sequence World Models](https://arxiv.org/abs/2310.05167)
+  - Paul Mattes, Rainer Schlosser, Ralf Herbrich
+  - Key: state-space models, multilayered hierarchical imagination, S5 based world model
+  - ExpEnv: [atari 100k](https://github.com/openai/gym)
+
+- [Improving Token-Based World Models with Parallel Observation Prediction](https://arxiv.org/abs/2402.05643)
+  - Lior Cohen, Kaixin Wang, Bingyi Kang, Shie Mannor
+  - Key: pixel-based mbrl, token-based world models, retentive environment model
+  - ExpEnv: [atari 100k](https://github.com/openai/gym)
+
+- [Do Transformer World Models Give Better Policy Gradients?](https://arxiv.org/abs/2402.05290)
+  - Michel Ma, Tianwei Ni, Clement Gehring, Pierluca D'Oro, Pierre-Luc Bacon
+  - Key: actions world model
+  - ExpEnv: [double-pendulum](https://github.com/openai/gym), [Myriad](https://github.com/nikihowe/myriad)
+
+- [Dr. Strategy: Model-Based Generalist Agents with Strategic Dreaming](https://arxiv.org/abs/2402.18866)
+  - Hany Hamed, Subin Kim, Dongyeong Kim, Jaesik Yoon, Sungjin Ahn
+  - Key: during strategeic dreaming, train three policies -- highway policy, explorer policy and achiever policy, and then achieve downstream tasks
+  - ExpEnv: 2D Navigation, 3D-Maze Navigation, RoboKitchen
+
+- [Towards Robust Model-Based Reinforcement Learning Against Adversarial Corruption](https://arxiv.org/abs/2402.08991)
+  - Chenlu Ye, Jiafan He, Quanquan Gu, Tong Zhang
+  - Key: theoretical analysis of adversarial corruption for model-based rl, encompassing both online and offline settings
+  - ExpEnv: None
+
+<!-- - [Trust the Model Where It Trusts Itself - Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption]()
+  - Bernd Frauenknecht, Artur Eisele, Devdutt Subhasish, Friedrich Solowjow, Sebastian Trimpe
+  - Key: 
+  - ExpEnv: 
+
+- [Efficient World Models with Time-Aware and Context-Augmented Tokenization]()
+  - Vincent Micheli, Eloi Alonso, François Fleuret
+  - Key: 
+  - ExpEnv: 
+
+- [Model-based Reinforcement Learning for Confounded POMDPs]()
+  - Mao Hong, Zhengling Qi, Yanxun Xu
+  - Key: 
+  - ExpEnv: 
+
+- [Coprocessor Actor Critic: A Model-Based Reinforcement Learning Approach For Adaptive Deep Brain Stimulation]()
+  - Michelle Pan, Mariah Schrum, Vivek Myers, Erdem Biyik, Anca Dragan
+  - Key: 
+  - ExpEnv:  -->
 
 </details>
 
