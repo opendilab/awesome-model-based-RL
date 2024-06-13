@@ -5,7 +5,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow)
 ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf)
 [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
-<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=opendilab/awesome-model-based-RL) -->
+![visitors](![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=opendilab.awesome-model-based-RL&left_text=Visitors))
 
 This is a collection of research papers for **model-based reinforcement learning (mbrl)**.
 And the repository will be continuously updated to track the frontier of model-based rl.
