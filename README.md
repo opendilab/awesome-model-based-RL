@@ -1,11 +1,6 @@
 # Awesome Model-Based Reinforcement Learning
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-model-based-RL)
-![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf)
-[![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
-<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=opendilab/awesome-model-based-RL) -->
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=opendilab.awesome-model-based-RL&left_text=Visitors) [![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-model-based-RL) ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow) ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf) [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
 
 This is a collection of research papers for **model-based reinforcement learning (mbrl)**.
 And the repository will be continuously updated to track the frontier of model-based rl.
@@ -35,24 +30,27 @@ Welcome to follow and star!
 
 ## Table of Contents
 
-- [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
-- [Papers](#papers)
-  - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-  - [ICML 2024](#icml-2024)(**<font color="red">New!!!</font>**)
-  - [ICLR 2024](#iclr-2024)
-  - [NeurIPS 2023](#neurips-2023)
-  - [ICML 2023](#icml-2023)
-  - [ICLR 2023](#iclr-2023)
-  - [NeurIPS 2022](#neurips-2022)
-  - [ICML 2022](#icml-2022)
-  - [ICLR 2022](#iclr-2022)
-  - [NeurIPS 2021](#neurips-2021)
-  - [ICLR 2021](#iclr-2021)
-  - [ICML 2021](#icml-2021)
-  - [Other](#other)
-- [Tutorial](#tutorial)
-- [Codebase](#codebase)
-- [Contributing](#contributing)
+- [Awesome Model-Based Reinforcement Learning](#awesome-model-based-reinforcement-learning)
+  - [Table of Contents](#table-of-contents)
+  - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
+  - [Papers](#papers)
+    - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
+    - [ICML 2024](#icml-2024)
+    - [ICLR 2024](#iclr-2024)
+    - [NeurIPS 2023](#neurips-2023)
+    - [ICML 2023](#icml-2023)
+    - [ICLR 2023](#iclr-2023)
+    - [NeurIPS 2022](#neurips-2022)
+    - [ICML 2022](#icml-2022)
+    - [ICLR 2022](#iclr-2022)
+    - [NeurIPS 2021](#neurips-2021)
+    - [ICLR 2021](#iclr-2021)
+    - [ICML 2021](#icml-2021)
+    - [Other](#other)
+  - [Tutorial](#tutorial)
+  - [Codebase](#codebase)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 
 ## A Taxonomy of Model-Based RL Algorithms
