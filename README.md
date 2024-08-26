@@ -368,6 +368,11 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/file/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Paper-Conference.pdf)
+  - Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian (Shawn) Ma, Yitao Liang
+  - Key: interactive planning approach based on LLM
+  - ExpEnv: [minecraft](https://github.com/minerllabs/minerl)
+
 - [Facing Off World Model Backbones: RNNs, Transformers, and S4](https://proceedings.neurips.cc/paper_files/paper/2023/file/e6c65eb9b56719c1aa45ff73874de317-Paper-Conference.pdf)
   - Fei Deng, Junyeong Park, Sungjin Ahn
   - Key: world model backbones
@@ -1188,6 +1193,11 @@ format:
 </details>
 
 ### Other
+
+- [DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving](https://openreview.net/pdf?id=tT3LUdmzbd)
+  - Chen Min, Dawei Zhao, Liang Xiao, Jian Zhao, Xinli Xu, Zheng Zhu, Lei Jin, Jianshu Li, Yulan Guo, Junliang Xing, Liping Jing, Yiming Nie, Bin Dai *CVPR 2024*
+  - Key: AutoDrive world modeling
+  - ExpEnv: [nuScenes](), [OpenScene]()
 
 - [Masked Trajectory Models for Prediction, Representation, and Control](https://openreview.net/pdf?id=tT3LUdmzbd)
   - Philipp Wu, Arjun Majumdar, Kevin Stone, Yixin Lin, Igor Mordatch, Pieter Abbeel, Aravind Rajeswaran *ICLR 2023 Workshop RRL*
