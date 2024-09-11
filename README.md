@@ -368,6 +368,11 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Large Language Models as Commonsense Knowledge for Large-Scale Task Planning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/65a39213d7d0e1eb5d192aa77e77eeb7-Abstract-Conference.html)
+  - Zirui Zhao, Wee Sun Lee, David Hsu
+  - Key: LLM-MCTS
+  - ExpEnv: [VirtualHome]()
+
 - [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/file/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Paper-Conference.pdf)
   - Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian (Shawn) Ma, Yitao Liang
   - Key: interactive planning approach based on LLM
@@ -1193,6 +1198,11 @@ format:
 </details>
 
 ### Other
+
+- [Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.html)
+  - Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, Zhaoxiang Zhang *CVPR 2024*
+  - Key: AutoDrive world modeling
+  - ExpEnv: [nuScenes]()
 
 - [DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving](https://openreview.net/pdf?id=tT3LUdmzbd)
   - Chen Min, Dawei Zhao, Liang Xiao, Jian Zhao, Xinli Xu, Zheng Zhu, Lei Jin, Jianshu Li, Yulan Guo, Junliang Xing, Liping Jing, Yiming Nie, Bin Dai *CVPR 2024*
