@@ -177,6 +177,21 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Towards Robust Model-Based Reinforcement Learning Against Adversarial Corruption](https://proceedings.mlr.press/v235/ye24a.html)
+  - Chenlu Ye, Jiafan He, Quanquan Gu, Tong Zhang
+  - Key: corruption-robust model-based RL
+  - ExpEnv: None
+
+- [Model-based Reinforcement Learning for Parameterized Action Spaces](https://proceedings.mlr.press/v235/zhang24r.html)
+  - Renhao Zhang, Haotian Fu, Yilin Miao, George Konidaris
+  - Key: PAMDP, parameterized-action-conditioned dynamics model
+  - ExpEnv:  [Platform and Goal](), [Catch Point](), [Hard Goal and Hard Move]()
+
+- [Model-based Reinforcement Learning for Confounded POMDPs](https://proceedings.mlr.press/v235/hong24d.html)
+  - Mao Hong, Zhengling Qi, Yanxun Xu
+  - Key: model-based RL, POMDP
+  - ExpEnv: None
+
 - [HarmonyDream: Task Harmonization Inside World Models](https://arxiv.org/abs/2310.00344)
   - Haoyu Ma, Jialong Wu, Ningya Feng, Chenjun Xiao, Dong Li, Jianye Hao, Jianmin Wang, Mingsheng Long
   - Key: observation modeling and reward modeling analysis in world models
