@@ -177,6 +177,16 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Model-based Reinforcement Learning for Parameterized Action Spaces](https://proceedings.mlr.press/v235/zhang24r.html)
+  - Renhao Zhang, Haotian Fu, Yilin Miao, George Konidaris
+  - Key: PAMDP, parameterized-action-conditioned dynamics model
+  - ExpEnv:  [Platform and Goal](https://github.com/cycraig/gym-platform), [Catch Point](), [Hard Goal and Hard Move](https://github.com/opendilab/DI-engine/tree/main/dizoo/gym_hybrid/envs)
+
+- [Model-based Reinforcement Learning for Confounded POMDPs](https://proceedings.mlr.press/v235/hong24d.html)
+  - Mao Hong, Zhengling Qi, Yanxun Xu
+  - Key: model-based RL, POMDP
+  - ExpEnv: None
+
 - [HarmonyDream: Task Harmonization Inside World Models](https://arxiv.org/abs/2310.00344)
   - Haoyu Ma, Jialong Wu, Ningya Feng, Chenjun Xiao, Dong Li, Jianye Hao, Jianmin Wang, Mingsheng Long
   - Key: observation modeling and reward modeling analysis in world models
@@ -367,6 +377,11 @@ format:
 
 <details open>
 <summary>Toggle</summary>
+
+- [Large Language Models as Commonsense Knowledge for Large-Scale Task Planning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/65a39213d7d0e1eb5d192aa77e77eeb7-Abstract-Conference.html)
+  - Zirui Zhao, Wee Sun Lee, David Hsu
+  - Key: LLM-MCTS
+  - ExpEnv: [VirtualHome]()
 
 - [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/file/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Paper-Conference.pdf)
   - Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian (Shawn) Ma, Yitao Liang
@@ -1193,6 +1208,11 @@ format:
 </details>
 
 ### Other
+
+- [Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.html)
+  - Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, Zhaoxiang Zhang *CVPR 2024*
+  - Key: AutoDrive world modeling
+  - ExpEnv: [nuScenes]()
 
 - [DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving](https://openreview.net/pdf?id=tT3LUdmzbd)
   - Chen Min, Dawei Zhao, Liang Xiao, Jian Zhao, Xinli Xu, Zheng Zhu, Lei Jin, Jianshu Li, Yulan Guo, Junliang Xing, Liping Jing, Yiming Nie, Bin Dai *CVPR 2024*
