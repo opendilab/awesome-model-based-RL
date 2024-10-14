@@ -177,11 +177,6 @@ format:
 <details open>
 <summary>Toggle</summary>
 
-- [Towards Robust Model-Based Reinforcement Learning Against Adversarial Corruption](https://proceedings.mlr.press/v235/ye24a.html)
-  - Chenlu Ye, Jiafan He, Quanquan Gu, Tong Zhang
-  - Key: corruption-robust model-based RL
-  - ExpEnv: None
-
 - [Model-based Reinforcement Learning for Parameterized Action Spaces](https://proceedings.mlr.press/v235/zhang24r.html)
   - Renhao Zhang, Haotian Fu, Yilin Miao, George Konidaris
   - Key: PAMDP, parameterized-action-conditioned dynamics model
