@@ -177,16 +177,6 @@ format:
 <details open>
 <summary>Toggle</summary>
 
-- [Model-based Reinforcement Learning for Parameterized Action Spaces](https://proceedings.mlr.press/v235/zhang24r.html)
-  - Renhao Zhang, Haotian Fu, Yilin Miao, George Konidaris
-  - Key: PAMDP, parameterized-action-conditioned dynamics model
-  - ExpEnv:  [Platform and Goal](https://github.com/cycraig/gym-platform), [Catch Point](), [Hard Goal and Hard Move](https://github.com/opendilab/DI-engine/tree/main/dizoo/gym_hybrid/envs)
-
-- [Model-based Reinforcement Learning for Confounded POMDPs](https://proceedings.mlr.press/v235/hong24d.html)
-  - Mao Hong, Zhengling Qi, Yanxun Xu
-  - Key: model-based RL, POMDP
-  - ExpEnv: None
-
 - [HarmonyDream: Task Harmonization Inside World Models](https://arxiv.org/abs/2310.00344)
   - Haoyu Ma, Jialong Wu, Ningya Feng, Chenjun Xiao, Dong Li, Jianye Hao, Jianmin Wang, Mingsheng Long
   - Key: observation modeling and reward modeling analysis in world models
@@ -242,6 +232,11 @@ format:
   - Key: theoretical analysis of adversarial corruption for model-based rl, encompassing both online and offline settings
   - ExpEnv: None
 
+- [Model-based Reinforcement Learning for Confounded POMDPs](https://proceedings.mlr.press/v235/hong24d.html)
+  - Mao Hong, Zhengling Qi, Yanxun Xu
+  - Key: model-based RL, POMDP
+  - ExpEnv: None
+
 <!-- - [Trust the Model Where It Trusts Itself - Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption]()
   - Bernd Frauenknecht, Artur Eisele, Devdutt Subhasish, Friedrich Solowjow, Sebastian Trimpe
   - Key: 
@@ -249,11 +244,6 @@ format:
 
 - [Efficient World Models with Time-Aware and Context-Augmented Tokenization]()
   - Vincent Micheli, Eloi Alonso, François Fleuret
-  - Key: 
-  - ExpEnv: 
-
-- [Model-based Reinforcement Learning for Confounded POMDPs]()
-  - Mao Hong, Zhengling Qi, Yanxun Xu
   - Key: 
   - ExpEnv: 
 
