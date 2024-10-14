@@ -185,7 +185,7 @@ format:
 - [Model-based Reinforcement Learning for Parameterized Action Spaces](https://proceedings.mlr.press/v235/zhang24r.html)
   - Renhao Zhang, Haotian Fu, Yilin Miao, George Konidaris
   - Key: PAMDP, parameterized-action-conditioned dynamics model
-  - ExpEnv:  [Platform and Goal](), [Catch Point](), [Hard Goal and Hard Move]()
+  - ExpEnv:  [Platform and Goal](https://github.com/cycraig/gym-platform), [Catch Point](), [Hard Goal and Hard Move](https://github.com/opendilab/DI-engine/tree/main/dizoo/gym_hybrid/envs)
 
 - [Model-based Reinforcement Learning for Confounded POMDPs](https://proceedings.mlr.press/v235/hong24d.html)
   - Mao Hong, Zhengling Qi, Yanxun Xu
