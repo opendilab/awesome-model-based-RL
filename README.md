@@ -8,9 +8,11 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2024.05.20] <b>New: We update the ICML 2024 submissions of model-based rl!</b></font>
+<font color="red">[2024.10.27] <b>New: We update the NeurIPS 2024 paper list of model-based rl!</b></font>
 
-[2023.11.29] We update the ICLR 2024 submissions of model-based rl.
+[2024.05.20] We update the ICML 2024 paper list of model-based rl.
+
+[2023.11.29] We update the ICLR 2024 paper list of model-based rl.
 
 [2023.09.29] We update the NeurIPS 2023 paper list of model-based rl.
 
@@ -35,6 +37,7 @@ Welcome to follow and star!
   - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
   - [Papers](#papers)
     - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
+    - [NeurIPS 2024🔥](#neurips-2024)
     - [ICML 2024](#icml-2024)
     - [ICLR 2024](#iclr-2024)
     - [NeurIPS 2023](#neurips-2023)
@@ -169,6 +172,63 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+</details>
+
+### NeurIPS 2024
+
+<details open>
+<summary>Toggle</summary>
+
+- [WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment](https://arxiv.org/abs/2402.12275)
+  - Hao Tang, Darren Key, Kevin Ellis
+  - Key: learn world models as code, LLM
+  - ExpEnv: [sokoban](https://github.com/mpSchrader/gym-sokoban), [minigrid](https://github.com/Farama-Foundation/Minigrid), [alfworld](https://github.com/alfworld/alfworld)
+
+- [The Edge-of-Reach Problem in Offline Model-Based Reinforcement Learning](https://arxiv.org/abs/2402.12527)
+  - Anya Sims, Cong Lu, Jakob Foerster, Yee Whye Teh
+  - Key: edge-of-reach problem, reach-aware value learning
+  - ExpEnv: [d4rl](https://github.com/Farama-Foundation/D4RL), [v-r4rl](https://github.com/conglu1997/v-d4rl)
+
+- [Deterministic Uncertainty Propagation for Improved Model-Based Offline Reinforcement Learning](https://arxiv.org/abs/2406.04088)
+  - Abdullah Akgül, Manuel Haussmann, Melih Kandemir
+  - Key: The paper argues that uncertainty-based reward penalization introduces excessive conservatism, potentially resulting in suboptimal policies through underestimation.
+  - ExpEnv: [d4rl](https://github.com/Farama-Foundation/D4RL)
+
+- [BECAUSE: Bilinear Causal Representation for Generalizable Offline Model-based Reinforcement Learning](https://arxiv.org/abs/2407.10967)
+  - Haohong Lin, Wenhao Ding, Jian Chen, Laixi Shi, Jiacheng Zhu, Bo Li, DING ZHAO
+  - Key: objective mismatch problem, capture causal representation for both states and actions
+  - ExpEnv: [list](https://github.com/ARISE-Initiative/robosuite), [unlock](https://github.com/Farama-Foundation/Minigrid), [crash](https://github.com/Farama-Foundation/HighwayEnv)
+
+- [Model-Based Transfer Learning for Contextual Reinforcement Learning](https://arxiv.org/abs/2408.04498)
+  - Jung-Hoon Cho, Vindula Jayawardana, Sirui Li, Cathy Wu
+  - Key: bayesian optimization, contextual rl
+  - ExpEnv: [gaussian process, traffic signal, eco-driving, advisory autonomy, control tasks]()
+
+- [Rethinking Model-based, Policy-based, and Value-based Reinforcement Learning via the Lens of Representation Complexity](https://arxiv.org/abs/2312.17248)
+  - Guhao Feng, Han Zhong
+  - Key: rl representation complexity
+  - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
+
+<!-- - [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning]()
+  - Moritz Schneider, Robert Krug, Narunas Vaskevicius, Luigi Palmieri, Joschka Boedecker
+  - Key:
+  - ExpEnv:
+
+- [Parallelizing Model-based Reinforcement Learning Over the Sequence Length]()
+  - Zirui Wang, Yue DENG, Junfeng Long, Yin Zhang
+  - Key:
+  - ExpEnv:
+
+- [Constrained Latent Action Policies for Model-Based Offline Reinforcement Learning]()
+  - Marvin Alles, Philip Becker-Ehmck, Patrick van der Smagt, Maximilian Karl
+  - Key:
+  - ExpEnv:
+
+- [Policy-shaped prediction: avoiding distractions in model-based RL]()
+  - Miles Hutson, Isaac Kauvar, Nick Haber
+  - Key:
+  - ExpEnv: -->
 
 </details>
 
