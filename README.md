@@ -182,13 +182,11 @@ format:
 
 - [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning](https://openreview.net/pdf?id=LvAy07mCxU)
   - Moritz Schneider, Robert Krug, Narunas Vaskevicius, Luigi Palmieri, Joschka Boedecker
-  - Publisher: NeurIPS 2024
   - Key: reinforcement learning, rl, model-based reinforcement learning, representation learning, pvr, visual representations
   - ExpEnv:  DMC, ManiSkill2, Miniworld
 
 - [Multi-Agent Domain Calibration with a Handful of Offline Data](https://openreview.net/pdf?id=LvAy07mCxU)
   - Tao Jiang, Lei Yuan, Lihe Li, Cong Guan, Zongzhang Zhang, Yang Yu
-  - Publisher: NeurIPS 2024
   - Key:  Multi-agent reinforcement learning, domain transfer
   - ExpEnv: D4RL
 
@@ -222,7 +220,7 @@ format:
   - Key: rl representation complexity
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
-- [Parallelizing Model-based Reinforcement Learning Over the Sequence Length]()
+<!--- [Parallelizing Model-based Reinforcement Learning Over the Sequence Length]()
   - Zirui Wang, Yue DENG, Junfeng Long, Yin Zhang
   - Key:
   - ExpEnv:
