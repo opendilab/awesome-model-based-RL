@@ -1,6 +1,6 @@
 # Awesome Model-Based Reinforcement Learning
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=opendilab.awesome-model-based-RL&left_text=Visitors) [![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-model-based-RL) ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow) ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf) [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-model-based-RL) ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-model-based-RL?color=yellow) ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-model-based-RL?color=9cf) [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-model-based-RL/blob/main/LICENSE)
 
 This is a collection of research papers for **model-based reinforcement learning (mbrl)**.
 And the repository will be continuously updated to track the frontier of model-based rl.
@@ -180,6 +180,16 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning](https://openreview.net/pdf?id=LvAy07mCxU)
+  - Moritz Schneider, Robert Krug, Narunas Vaskevicius, Luigi Palmieri, Joschka Boedecker
+  - Key: reinforcement learning, rl, model-based reinforcement learning, representation learning, pvr, visual representations
+  - ExpEnv:  DMC, ManiSkill2, Miniworld
+
+- [Multi-Agent Domain Calibration with a Handful of Offline Data](https://openreview.net/pdf?id=LvAy07mCxU)
+  - Tao Jiang, Lei Yuan, Lihe Li, Cong Guan, Zongzhang Zhang, Yang Yu
+  - Key:  Multi-agent reinforcement learning, domain transfer
+  - ExpEnv: D4RL
+
 - [WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment](https://arxiv.org/abs/2402.12275)
   - Hao Tang, Darren Key, Kevin Ellis
   - Key: learn world models as code, LLM
@@ -210,12 +220,7 @@ format:
   - Key: rl representation complexity
   - ExpEnv: [mujoco](https://github.com/openai/mujoco-py)
 
-<!-- - [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning]()
-  - Moritz Schneider, Robert Krug, Narunas Vaskevicius, Luigi Palmieri, Joschka Boedecker
-  - Key:
-  - ExpEnv:
-
-- [Parallelizing Model-based Reinforcement Learning Over the Sequence Length]()
+<!--- [Parallelizing Model-based Reinforcement Learning Over the Sequence Length]()
   - Zirui Wang, Yue DENG, Junfeng Long, Yin Zhang
   - Key:
   - ExpEnv:
