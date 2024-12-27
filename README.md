@@ -180,10 +180,35 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [iVideoGPT: Interactive VideoGPTs are Scalable World Models](https://arxiv.org/pdf/2405.15223)
+  - Jialong Wu, Shaofeng Yin, Ningya Feng, Xu He, Dong Li, Jianye Hao, Mingsheng Long
+  - Key: world models, video generative models, autoregressive transformer, reinforcement learning, video prediction, visual planning
+  - ExpEnv: Meta-world
+  
+- [Parallelizing Model-based Reinforcement Learning Over the Sequence Length](https://openreview.net/pdf/e061517a824b90efc807dc90ac6bbd20747bd654.pdf)
+  - ZiRui Wang, Yue Deng, Junfeng Long, Yin Zhang
+  - Key: reinforcement learning, model-based reinforcement learning, parallelization, sequence length, world model, eligibility trace, sample efficiency
+  - ExpEnv: Atari 100K, DMControl
+
+- [Reinforcement Learning under Latent Dynamics: Toward Statistical and Algorithmic Modularity](https://openreview.net/pdf?id=qf2uZAdy1N)  
+  - Philip Amortila, Dylan J. Foster, Nan Jiang, Akshay Krishnamurthy, Zakaria Mhammedi  
+  - Key: reinforcement learning, latent dynamics, statistical modularity, algorithmic modularity, observable-to-latent reductions, self-predictive models  
+  - ExpEnv: None  
+
+- [SPO: Sequential Monte Carlo Policy Optimisation](https://openreview.net/pdf?id=XKvYcPPH5G)  
+  - Matthew V Macfarlane, Edan Toledo, Donal Byrne, Paul Duckworth, Alexandre Laterre  
+  - Key: reinforcement learning, rl, model-based reinforcement learning, sequential monte carlo, expectation maximisation, planning  
+  - ExpEnv: Brax, Boxoban, Rubik's Cube
+
+- [Seek Commonality but Preserve Differences: Dissected Dynamics Modeling for Multi-modal Visual RL](https://openreview.net/pdf?id=4php6bGL2W)  
+  - Yangru Huang, Peixi Peng, Yifan Zhao, Guangyao Chen, Yonghong Tian  
+  - Key: multi-modal reinforcement learning, visual RL, dynamics modeling, modality consistency, modality inconsistency, DDM  
+  - ExpEnv: CARLA, DMControl
+
 - [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning](https://openreview.net/pdf?id=LvAy07mCxU)
   - Moritz Schneider, Robert Krug, Narunas Vaskevicius, Luigi Palmieri, Joschka Boedecker
   - Key: reinforcement learning, rl, model-based reinforcement learning, representation learning, pvr, visual representations
-  - ExpEnv:  DMC, ManiSkill2, Miniworld
+  - ExpEnv: DMC, ManiSkill2, Miniworld
 
 - [Multi-Agent Domain Calibration with a Handful of Offline Data](https://openreview.net/pdf?id=LvAy07mCxU)
   - Tao Jiang, Lei Yuan, Lihe Li, Cong Guan, Zongzhang Zhang, Yang Yu
