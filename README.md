@@ -8,7 +8,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2024.10.27] <b>New: We update the NeurIPS 2024 paper list of model-based rl!</b></font>
+<font color="red">[2025.02.06] <b>New: We update the ICLR 2025 paper list of model-based rl!</b></font>
+
+[2024.10.27] We update the NeurIPS 2024 paper list of model-based rl.
 
 [2024.05.20] We update the ICML 2024 paper list of model-based rl.
 
