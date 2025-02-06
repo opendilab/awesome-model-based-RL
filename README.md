@@ -183,6 +183,26 @@ format:
 <details open>
 <summary>Toggle</summary>
 
+- [Learning Transformer-based World Models with Contrastive Predictive Coding](https://openreview.net/forum?id=YK9G4Htdew)  
+  - Maxime Burchi, Radu Timofte  
+  - Key: model-based reinforcement learning, transformer network, contrastive predictive coding  
+  - ExpEnv: Atari 100k benchmark
+
+- [Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation](https://openreview.net/forum?id=meRCKuUpmc)  
+  - Yang Tian, Sizhe Yang, Jia Zeng, Ping Wang, Dahua Lin, Hao Dong, Jiangmiao Pang  
+  - Key: Robotic Manipulation, Pre-training, Visual Foresight, Inverse Dynamics, Large-scale robot dataset  
+  - ExpEnv: LIBERO-LONG benchmark, CALVIN ABC-D, real-world tasks
+
+- [OptionZero: Planning with Learned Options](https://openreview.net/forum?id=3IFRygQKGL)  
+  - Po-Wei Huang, Pei-Chiun Peng, Hung Guei, Ti-Rong Wu  
+  - Key: Option, Semi-MDP, MuZero, MCTS, Planning, Reinforcement Learning  
+  - ExpEnv: Atari
+
+- [MAD-TD: Model-Augmented Data stabilizes High Update Ratio RL](https://openreview.net/forum?id=6RtRsg8ZV1)  
+  - Claas A Voelcker, Marcel Hussing, Eric Eaton, Amir-massoud Farahmand, Igor Gilitschenski  
+  - Key: reinforcement learning, model based reinforcement learning, data augmentation, high update ratios  
+  - ExpEnv: DeepMind Control Suite
+
 - [Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks](https://openreview.net/forum?id=zCxGCdzreM)  
   - Michael Matthews, Michael Beukman, Chris Lu, Jakob Nicolaus Foerster  
   - Key: Reinforcement Learning, Open-Endedness, Unsupervised Environment Design, Automatic Curriculum Learning, Benchmark  
@@ -207,6 +227,31 @@ format:
   - Authors: Tai Hoang, Huy Le, Philipp Becker, Vien Anh Ngo, Gerhard Neumann  
   - Key: Robotic Manipulation, Equivariance, Graph Neural Networks, Reinforcement Learning, Deformable Objects  
   - ExpEnv: Rigid insertion, rope manipulation, cloth manipulation with multiple end-effectors
+
+- [M^3PC: Test-time Model Predictive Control using Pretrained Masked Trajectory Model](https://openreview.net/forum?id=inOwd7hZC1)  
+  - Kehan Wen, Yutong Hu, Yao Mu, Lei Ke  
+  - Key: Offline-to-Online Reinforcement Learning, Model-based Reinforcement Learning, Masked Autoencoding, Robot Learning  
+  - ExpEnv: D4RL, RoboMimic
+
+- [Offline Model-Based Optimization by Learning to Rank](https://openreview.net/forum?id=sb1HgVDLjN)  
+  - Rong-Xi Tan, Ke Xue, Shen-Huan Lyu, Haopu Shang, yaowang, Yaoyuan Wang, Fu Sheng, Chao Qian  
+  - Key: Offline model-based optimization, black-box optimization, learning to rank, learning to optimize  
+  - ExpEnv: Diverse tasks across optimization scenarios
+  
+- [Monte Carlo Planning with Large Language Model for Text-Based Games](https://openreview.net/forum?id=r1KcapkzCt)  
+  - Zijing Shi, Meng Fang, Ling Chen  
+  - Key: Large language model, Monte Carlo tree search, Text-based games  
+  - ExpEnv: Jericho benchmark
+
+- [Interpreting Emergent Planning in Model-Free Reinforcement Learning](https://openreview.net/forum?id=DzGe40glxs)  
+  - Thomas Bush, Stephen Chung, Usman Anwar, Adrià Garriga-Alonso, David Krueger  
+  - Key: reinforcement learning, interpretability, planning, probes, model-free, mechanistic interpretability, sokoban  
+  - ExpEnv: Sokoban
+
+- [Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks](https://openreview.net/forum?id=zCxGCdzreM)  
+  - Michael Matthews, Michael Beukman, Chris Lu, Jakob Nicolaus Foerster  
+  - Key: reinforcement learning, open-endedness, unsupervised environment design, automatic curriculum learning, benchmark  
+  - ExpEnv: Kinetix, Jax2D
 
 </details>
 
