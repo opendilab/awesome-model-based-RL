@@ -37,7 +37,8 @@ Welcome to follow and star!
   - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
   - [Papers](#papers)
     - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-    - [NeurIPS 2024🔥](#neurips-2024)
+    - [ICLR 2025🔥](#iclr-2025)
+    - [NeurIPS 2024](#neurips-2024)
     - [ICML 2024](#icml-2024)
     - [ICLR 2024](#iclr-2024)
     - [NeurIPS 2023](#neurips-2023)
@@ -172,6 +173,38 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+</details>
+
+### ICLR 2025
+
+<details open>
+<summary>Toggle</summary>
+
+- [Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks](https://openreview.net/forum?id=zCxGCdzreM)  
+  - Michael Matthews, Michael Beukman, Chris Lu, Jakob Nicolaus Foerster  
+  - Key: Reinforcement Learning, Open-Endedness, Unsupervised Environment Design, Automatic Curriculum Learning, Benchmark  
+  - ExpEnv: 2D Physics-Based Tasks, Robotic Locomotion, Grasping, Video Games, Classic RL Environments
+
+- [Learning to Search from Demonstration Sequences](https://openreview.net/forum?id=v593OaNePQ)  
+  - Dixant Mittal, Liwei Kang, Wee Sun Lee  
+  - Key: Planning, Reasoning, Learning to Search, Reinforcement Learning, Large Language Model  
+  - ExpEnv: Game of 24, 2D Grid Navigation, Procgen Games
+
+- [Open-World Reinforcement Learning over Long Short-Term Imagination](https://openreview.net/forum?id=vzItLaEoDa)  
+  - Jiajian Li, Qi Wang, Yunbo Wang, Xin Jin, Yang Li, Wenjun Zeng, Xiaokang Yang  
+  - Key: Reinforcement Learning, World Models, Visual Control  
+  - ExpEnv: MineDojo
+
+- [MaestroMotif: Skill Design from Artificial Intelligence Feedback](https://openreview.net/forum?id=or8mMhmyRV)
+  - Martin Klissarov, Mikael Henaff, Roberta Raileanu, Shagun Sodhani, Pascal Vincent, Amy Zhang, Pierre-Luc Bacon, Doina Precup, Marlos C. Machado, Pierluca D'Oro
+  - Key: Hierarchical RL, Reinforcement Learning, LLMs
+  - ExpEnv: NetHack Learning Environment (NLE)
+
+- [Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects](https://openreview.net/forum?id=7BLXhmWvwF)  
+  - Authors: Tai Hoang, Huy Le, Philipp Becker, Vien Anh Ngo, Gerhard Neumann  
+  - Key: Robotic Manipulation, Equivariance, Graph Neural Networks, Reinforcement Learning, Deformable Objects  
+  - ExpEnv: Rigid insertion, rope manipulation, cloth manipulation with multiple end-effectors
 
 </details>
 
