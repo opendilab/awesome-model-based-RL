@@ -253,6 +253,11 @@ format:
   - Key: reinforcement learning, open-endedness, unsupervised environment design, automatic curriculum learning, benchmark  
   - ExpEnv: Kinetix, Jax2D
 
+- [Drama: Mamba-Enabled Model-Based Reinforcement Learning Is Sample and Parameter Efficient](https://openreview.net/forum?id=7XIkRgYjK3)  
+  - Wenlong Wang, Ivana Dusparic, Yucheng Shi, Ke Zhang, Vinny Cahill  
+  - Key: Mamba-2, Model based reinforcement learning, Mamba, State space models
+  - ExpEnv: Atari 100K
+
 </details>
 
 ### NeurIPS 2024
