@@ -248,15 +248,25 @@ format:
   - Key: reinforcement learning, interpretability, planning, probes, model-free, mechanistic interpretability, sokoban  
   - ExpEnv: Sokoban
 
-- [Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks](https://openreview.net/forum?id=zCxGCdzreM)  
-  - Michael Matthews, Michael Beukman, Chris Lu, Jakob Nicolaus Foerster  
-  - Key: reinforcement learning, open-endedness, unsupervised environment design, automatic curriculum learning, benchmark  
-  - ExpEnv: Kinetix, Jax2D
-
 - [Drama: Mamba-Enabled Model-Based Reinforcement Learning Is Sample and Parameter Efficient](https://openreview.net/forum?id=7XIkRgYjK3)  
   - Wenlong Wang, Ivana Dusparic, Yucheng Shi, Ke Zhang, Vinny Cahill  
   - Key: Mamba-2, Model based reinforcement learning, Mamba, State space models
   - ExpEnv: Atari 100K
+ 
+- [Zero-shot Model-based Reinforcement Learning using Large Language Models](https://openreview.net/forum?id=uZFXpPrwSh)  
+  - Abdelhakim Benechehab, Youssef Attia El Hili, Ambroise Odonnat, Oussama Zekri, Albert Thomas, Giuseppe Paolo, Maurizio Filippone, Ievgen Redko, Balázs Kégl 
+  - Key: Model-based Reinforcement Learning, Large language models, Zero-shot Learning, In-context Learning
+  - ExpEnv: D4RL, Pendulum, HalfCheetah, Hopper
+ 
+- [On Rollouts in Model-Based Reinforcement Learning](https://openreview.net/forum?id=Uh5GRmLlvt)  
+  - Bernd Frauenknecht, Devdutt Subhasish, Friedrich Solowjow, Sebastian Trimpe  
+  - Key: Model-Based Reinforcement Learning, Model Rollouts, Uncertainty Quantification
+  - ExpEnv: Gym MuJoCo
+ 
+- [Any-step Dynamics Model Improves Future Predictions for Online and Offline Reinforcement Learning](https://openreview.net/forum?id=JZCxlrwjZ8)  
+  - Haoxin Lin, Yu-Yan Xu, Yihao Sun, Zhilong Zhang, Yi-Chen Li, Chengxing Jia, Junyin Ye, Jiaji Zhang, Yang Yu
+  - Key: model-based reinforcement learning, any-step dynamics model
+  - ExpEnv: D4RL, NeoRL, Gym MuJoCo-v3
 
 </details>
 
