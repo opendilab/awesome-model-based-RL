@@ -268,6 +268,11 @@ format:
   - Key: model-based reinforcement learning, any-step dynamics model
   - ExpEnv: D4RL, NeoRL, Gym MuJoCo-v3
 
+- [Discrete Codebook World Models for Continuous Control](https://openreview.net/forum?id=lfRYzd8ady)
+  - Aidan Scannell, Mohammadreza Nakhaeinezhadfard, Kalle Kujanpää, Yi Zhao, Kevin Sebastian Luck, Arno Solin, Joni Pajarinen
+  - Key: reinforcement learning, world model, representation learning, self-supervised learning, model-based reinforcement learning, continuous control
+  - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/Farama-Foundation/Metaworld), [myosuite](https://github.com/MyoHub/myosuite)
+
 </details>
 
 ### NeurIPS 2024
