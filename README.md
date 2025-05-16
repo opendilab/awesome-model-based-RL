@@ -39,7 +39,8 @@ Welcome to follow and star!
   - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
   - [Papers](#papers)
     - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-    - [ICLR 2025🔥](#iclr-2025)
+    - [TMLR 2025](#tmlr-2025)
+    - [ICLR 2025](#iclr-2025)
     - [NeurIPS 2024](#neurips-2024)
     - [ICML 2024](#icml-2024)
     - [ICLR 2024](#iclr-2024)
@@ -175,6 +176,18 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+</details>
+
+### TMLR 2025
+
+<details open>
+<summary>Toggle</summary>
+
+- [UniZero: Generalized and Efficient Planning with Scalable Latent World Models](https://openreview.net/forum?id=Gl6dF9soQo) 
+  - Yuan Pu, Yazhe Niu, Zhenjie Yang, Jiyuan Ren, Hongsheng Li, Yu Liu  
+  - Key: world model, MCTS, model-based reinforcement learning, transformer, latent planning, multitask learning  
+  - ExpEnv: Atari, DMControl, VisualMatch
 
 </details>
 
