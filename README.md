@@ -8,7 +8,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2025.02.06] <b>New: We update the ICLR 2025 paper list of model-based rl!</b></font>
+<font color="red">[2025.08.28] <b>New: We update the ICML 2025 paper list of model-based rl!</b></font>
+
+[2025.02.06] We update the ICLR 2025 paper list of model-based rl.
 
 [2024.10.27] We update the NeurIPS 2024 paper list of model-based rl.
 
@@ -39,7 +41,7 @@ Welcome to follow and star!
   - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
   - [Papers](#papers)
     - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
-    - [TMLR 2025](#tmlr-2025)
+    - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [NeurIPS 2024](#neurips-2024)
     - [ICML 2024](#icml-2024)
@@ -179,15 +181,70 @@ format:
 
 </details>
 
-### TMLR 2025
+### ICML 2025
 
 <details open>
 <summary>Toggle</summary>
 
-- [UniZero: Generalized and Efficient Planning with Scalable Latent World Models](https://openreview.net/forum?id=Gl6dF9soQo) 
-  - Yuan Pu, Yazhe Niu, Zhenjie Yang, Jiyuan Ren, Hongsheng Li, Yu Liu  
-  - Key: world model, MCTS, model-based reinforcement learning, transformer, latent planning, multitask learning  
-  - ExpEnv: Atari, DMControl, VisualMatch
+- [Improving Transformer World Models for Data-Efficient RL](https://openreview.net/forum?id=IajCvMJw41)
+  - Antoine Dedieu, Joseph Ortiz, Xinghua Lou, Carter Wendelken, Wolfgang Lehrach, J Swaroop Guntupalli, Miguel Lazaro-Gredilla, Kevin Murphy
+  - Key: dyna with warmup, patch nearestneighbor tokenization, block teacher forcing
+  - OpenReview: 4, 4, 4, 3
+  - ExpEnv: craftax-classic
+
+- [Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning](https://openreview.net/forum?id=Zt05jXhqXx)
+  - Brett Barkley, David Fridovich-Keil
+  - Key: Dyna-style algorithms significantly degrades performance across most DMC environments.
+  - OpenReview: 4, 4, 3, 2
+  - ExpEnv: gym, DeepMind Control Suite
+
+- [Knowledge Retention in Continual Model-Based Reinforcement Learning](https://openreview.net/forum?id=DiqeZY27XK) 
+  - Haotian Fu, Yixiang Sun, Michael L. Littman, George Konidaris
+  - Key: synthetic experience rehearsal, regaining memories through exploration
+  - OpenReview: 4, 3, 3, 3
+  - ExpEnv: mini-grid, deepmind control suite
+
+- [Time-Aware World Model for Adaptive Prediction and Control](https://openreview.net/forum?id=gZ5N3TLjwv) 
+  - Anh N Nhu, Sanghyun Son, Ming Lin
+  - Key: condition on the time-step size ∆t and and train over a diverse range of ∆t values
+  - OpenReview: 4, 3, 3
+  - ExpEnv: meta-world control tasks, PDE-control tasks
+
+- [Video-Enhanced Offline Reinforcement Learning: A Model-Based Approach](https://arxiv.org/abs/2505.06482)
+  - Minting Pan, Yitao Zheng, Jiajian Li, Yunbo Wang, Xiaokang Yang
+  - Key: behavior abstraction network, hierarchical world model
+  - OpenReview: 3, 3, 3, 2
+  - ExpEnv: meta-world, carla, minedojo
+
+- [Temporal Distance-aware Transition Augmentation for Offline Model-based Reinforcement Learning](https://openreview.net/forum?id=drBVowFvqf)
+  - Dongsu Lee, Minhae Kwon
+  - Key: learn a latent abstraction that captures a temporal distance from both trajectory and transition levels of state space.
+  - OpenReview: 4, 3, 3, 2
+  - ExpEnv: D4RL, AntMaze, FrankaKitchen, CALVIN, pixel-based FrankaKitchen.
+
+- [PIGDreamer: Privileged Information Guided World Models for Safe Partially Observable Reinforcement Learning](https://openreview.net/forum?id=mtk8tTKWs0) 
+  - Dongchi Huang, Jiaqi WANG, Yang Li, Chunhe Xia, Tianle Zhang, Kaige Zhang
+  - Key: leverage privileged information through privileged representation alignment and an asymmetric actor-critic structure
+  - OpenReview: 3, 3, 3
+  - ExpEnv: safety gymnasium benchmark, guard benchmark
+
+- [Reward-free World Models for Online Imitation Learning](https://openreview.net/forum?id=owEhpoKBKC)
+  - Shangzhe Li, Zhiao Huang, Hao Su
+  - Key: reward-free world model, inverse soft-Q learning objective
+  - OpenReview: 4, 3, 3, 3
+  - ExpEnv: DMControl, MyoSuite, ManiSkill2
+
+- [FOUNDER: Grounding Foundation Models in World Models for Open-Ended Embodied Decision Making](https://openreview.net/forum?id=UTT5OTyIWm)
+  - Yucen Wang, Rui Yu, Shenghua Wan, Le Gan, De-Chuan Zhan
+  - Key: ground FM representations into the WM state space, model-based goal-condition RL
+  - OpenReview: 4, 3, 3, 3
+  - ExpEnv: DMControl, Kitchen, minecraft
+
+- [Continual Reinforcement Learning by Planning with Online World Models](https://openreview.net/forum?id=mQeZEsdODh)
+  - Zichen Liu, Guoji Fu, Chao Du, Wee Sun Lee, Min Lin
+  - Key: plan with online world model, regret analysis
+  - OpenReview: 4, 4, 4, 3
+  - ExpEnv: [ContinualBench](https://github.com/sail-sg/ContinualBench/tree/main/continual_bench/envs)
 
 </details>
 
@@ -1401,6 +1458,11 @@ format:
 </details>
 
 ### Other
+
+- [UniZero: Generalized and Efficient Planning with Scalable Latent World Models](https://openreview.net/forum?id=Gl6dF9soQo) 
+  - Yuan Pu, Yazhe Niu, Zhenjie Yang, Jiyuan Ren, Hongsheng Li, Yu Liu *TMLR2025*
+  - Key: world model, MCTS, model-based reinforcement learning, transformer, latent planning, multitask learning  
+  - ExpEnv: Atari, DMControl, VisualMatch
 
 - [Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.html)
   - Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, Zhaoxiang Zhang *CVPR 2024*
