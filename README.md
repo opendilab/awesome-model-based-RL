@@ -246,6 +246,41 @@ format:
   - OpenReview: 4, 4, 4, 3
   - ExpEnv: [ContinualBench](https://github.com/sail-sg/ContinualBench/tree/main/continual_bench/envs)
 
+- [Scaling Laws for Pre-training Agents and World Models](https://openreview.net/pdf?id=HHwGfLOKxq) 
+  - Tim Pearce*, Tabish Rashid*, David Bignell, Raluca Georgescu, Sam Devlin, Katja Hofmann
+  - Key: scaling laws, embodied AI, behavior cloning, world modeling, tokenizer, architecture
+  - ExpEnv: Bleeding Edge, RT-1 (robotics), Atari, NetHack
+
+- [DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning](https://openreview.net/pdf?id=D5RNACOZEI)
+  - Gaoyue Zhou, Hengkai Pan, Yann LeCun, Lerrel Pinto
+  - Key: world models, offline learning, zero-shot planning, pretrained visual features, task-agnostic reasoning
+  - ExpEnv: Maze, Wall, Reach, Push-T, Rope Manipulation, Granular Manipulation
+  
+- [General agents need world models](https://openreview.net/pdf?id=dlIoumNiXt) 
+  - Jonathan Richens, Tom Everitt, David Abel
+  - Key: world models, goal-directed behavior, model-free learning, policy analysis, regret bounds
+  - ExpEnv: synthetic controlled Markov process (cMP) environments with varying sample trajectories and goal depths
+
+- [RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations](https://openreview.net/pdf?id=DaOdkXgLvE)
+  - Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li
+  - Key: MuZero, robustness, reinforcement learning, state perturbations, self-supervised learning, adaptive adjustment
+  - ExpEnv: CartPole, Pendulum, IEEE 34-bus, IEEE 123-bus, IEEE 8500-node, Highway, Intersection, Racetrack, Hopper, Walker2d, HalfCheetah, Ant
+
+- [Accurate and Efficient World Modeling with Masked Latent Transformers](https://openreview.net/pdf?id=zNUOZcAUxz)
+  - Maxime Burchi, Radu Timofte
+  - Key: model-based reinforcement learning, world models, MaskGIT, spatial latent space, Dreamer, Transformer, efficiency
+  - ExpEnv: Crafter, Atari 100k
+
+- [Trajectory World Models for Heterogeneous Environments](https://openreview.net/forum?id=Py2KmXaRmi)  
+  - Shaofeng Yin, Jialong Wu, Siqiao Huang, Xingjian Su, Xu He, Jianye Hao, Mingsheng Long  
+  - Key: world models, heterogeneous environments, pre-training, in-context learning, model transfer, trajectory data  
+  - ExpEnv: UniTraj (80 diverse environments), D4RL (HalfCheetah, Hopper, Walker2D), Cart-2-Pole, Cart-3-Pole
+
+- [A Causal World Model Underlying Next Token Prediction: Exploring GPT in a Controlled Environment](https://openreview.net/pdf?id=qA3xHJzF6B)
+  - Raanan Y. Rohekar, Yaniv Gurwicz, Sungduk Yu, Estelle Aflalo, Vasudev Lal
+  - Key: GPT, causal inference, attention mechanism, structural causal model, zero-shot causal discovery
+  - ExpEnv: Othello, Chess
+
 </details>
 
 ### ICLR 2025
