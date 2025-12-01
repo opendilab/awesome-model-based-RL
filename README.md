@@ -199,7 +199,7 @@ format:
   - Key: world model training, decision-aware, verifiable rewards
   - ExpEnv: text games, robot manipulation
 
-- [Dyn-O: Building Structured World Models with Object-Centric Representations](https://openreview.net/forum?id=DynO)
+- [Dyn-O: Building Structured World Models with Object-Centric Representations](https://arxiv.org/abs/2507.03298)
   - Microsoft Research et al. *NeurIPS 2025*
   - Key: structured world models, object-centric, physics modeling
   - ExpEnv: physical interaction, object manipulation
