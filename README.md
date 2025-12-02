@@ -8,7 +8,9 @@ And the repository will be continuously updated to track the frontier of model-b
 Welcome to follow and star!
 
 <pre name="code" class="html">
-<font color="red">[2025.08.28] <b>New: We update the ICML 2025 paper list of model-based rl!</b></font>
+<font color="red">[2025.12.01] <b>New: We update the NeurIPS 2025 paper list of model-based rl!</b></font>
+
+[2025.08.28] We update the ICML 2025 paper list of model-based rl.
 
 [2025.02.06] We update the ICLR 2025 paper list of model-based rl.
 
@@ -41,6 +43,7 @@ Welcome to follow and star!
   - [A Taxonomy of Model-Based RL Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
   - [Papers](#papers)
     - [Classic Model-Based RL Papers](#classic-model-based-rl-papers)
+    - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [NeurIPS 2024](#neurips-2024)
@@ -178,6 +181,43 @@ format:
   - Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver. *Nature 2020*
   - Key: MCTS, value equivalence
   - ExpEnv: chess, shogi, go, [atari](https://github.com/openai/gym)
+
+</details>
+
+### NeurIPS 2025
+
+<details open>
+<summary>Toggle</summary>
+
+- [Stable Planning through Aligned Representations in Model-Based Reinforcement Learning](https://openreview.net/forum?id=Uv7V1gTOjK)
+  - Misagh Soltani, Forest Agostinelli. *NeurIPS 2025*
+  - Key: visual planning, aligned representations, discrete latent state, heuristic search
+  - ExpEnv: Rubik's Cube, Sokoban
+
+- [RLVR-World: Training World Models with Reinforcement Learning](https://openreview.net/forum?id=jpiSagi8aV)
+  - Mingsheng Long, et al. *NeurIPS 2025*
+  - Key: world model training, decision-aware, verifiable rewards
+  - ExpEnv: text games, robot manipulation
+
+- [Dyn-O: Building Structured World Models with Object-Centric Representations](https://arxiv.org/abs/2507.03298)
+  - Microsoft Research et al. *NeurIPS 2025*
+  - Key: structured world models, object-centric, physics modeling
+  - ExpEnv: physical interaction, object manipulation
+
+- [Off-policy Reinforcement Learning with Model-based Exploration Augmentation](https://openreview.net/forum?id=JGkZgEEjiM)
+  - Anonymous et al. *NeurIPS 2025*
+  - Key: exploration, diffusion model, synthetic experience, data augmentation
+  - ExpEnv: mujoco, sparse reward tasks
+
+- [Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective](https://openreview.net/forum?id=rRxFIOoEeF)
+  - Xiu Li, et al. *NeurIPS 2025*
+  - Key: multi-agent MBRL, diffusion-inspired, sequence modeling, joint distribution
+  - ExpEnv: SMAC, MPE
+
+- [SPiDR: A Simple Approach for Zero-Shot Safety in Sim-to-Real Transfer](https://openreview.net/forum?id=Pe1ypX9gBO)
+  - Yarden As, Chengrui Qu, Benjamin Unger, Dongho Kang, Max van der Hart, Laixi Shi, Stelian Coros, Adam Wierman, Andreas Krause. *NeurIPS 2025*
+  - Key: safe MBRL, sim-to-real, ensemble uncertainty, robust control
+  - ExpEnv: real-world robotics, safety gym
 
 </details>
 
