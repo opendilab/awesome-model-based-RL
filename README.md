@@ -218,6 +218,10 @@ format:
   - Yarden As, Chengrui Qu, Benjamin Unger, Dongho Kang, Max van der Hart, Laixi Shi, Stelian Coros, Adam Wierman, Andreas Krause. *NeurIPS 2025*
   - Key: safe MBRL, sim-to-real, ensemble uncertainty, robust control
   - ExpEnv: real-world robotics, safety gym
+- [Improving Model-Based Reinforcement Learning by Converging to Flatter Minima](https://openreview.net/pdf?id=vcB1OwtWUZ)
+  - Shrinivas Ramasubramanian, Benjamin Freed, Alexandre Capone, Jeff Schneider. *NeurIPS 2025*
+  - Key: model error, simulation lemma, model generalization,
+  - ExpEnv: DMC, Atari100k, HumanoidBench
 
 </details>
 
