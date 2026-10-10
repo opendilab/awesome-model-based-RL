@@ -719,6 +719,11 @@ format:
   - Key: reinforcement learning, world model, representation learning, self-supervised learning, model-based reinforcement learning, continuous control
   - ExpEnv: [deepmind control suite](https://github.com/deepmind/dm_control), [Meta-World](https://github.com/Farama-Foundation/Metaworld), [myosuite](https://github.com/MyoHub/myosuite)
 
+- [VisualPredicator: Learning Abstract World Models with Neuro-Symbolic Predicates for Robot Planning](https://openreview.net/forum?id=QOfswj7hij)
+  - Yichao Liang, Nishanth Kumar, Hao Tang, Adrian Weller, Joshua B. Tenenbaum, Tom Silver, João F. Henriques, Kevin Ellis
+  - Key: neuro-symbolic predicates, predicate invention, abstract world models, planning, out-of-distribution generalization
+  - ExpEnv: five simulated robotic domains
+
 </details>
 
 ### NeurIPS 2024
