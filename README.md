@@ -1896,6 +1896,7 @@ format:
 
 - [mbrl-lib](https://github.com/facebookresearch/mbrl-lib) - Meta: Library for Model Based RL
 - [DI-engine](https://github.com/opendilab/DI-engine) - OpenDILab: Decision AI Engine
+- [Simulusion](https://github.com/ParamThakkar123/simulusion) - PyTorch library for world models and model-based RL (Dreamer, PlaNet, IRIS, DIAMOND, Genie) behind one API, with [pretrained checkpoints](https://huggingface.co/collections/simillusion/simulusion-demo-models-6ae0419992e0177bc1695362) on the Hugging Face Hub
 
 
 ## Contributing
