@@ -1840,6 +1840,11 @@ format:
 
 ### Other
 
+- [Look Back: Reinforcement Learning with Counterfactual World Models](https://arxiv.org/abs/2611.29259)
+  - Jinwoo Kim, Toghrul Abbasov, Lucius E.J. Bynum, Aahlad Puli, Stephanie Milani, Hyunwoo Ryu, Seunghoon Hong, Kyunghyun Cho, Rajesh Ranganath *arXiv 2026*
+  - Key: counterfactual world model, policy gradient, variance reduction, baselines
+  - ExpEnv: contextual bandit, multi-agent bandit, Chrome Dino
+
 - [UniZero: Generalized and Efficient Planning with Scalable Latent World Models](https://openreview.net/forum?id=Gl6dF9soQo) 
   - Yuan Pu, Yazhe Niu, Zhenjie Yang, Jiyuan Ren, Hongsheng Li, Yu Liu *TMLR2025*
   - Key: world model, MCTS, model-based reinforcement learning, transformer, latent planning, multitask learning  
